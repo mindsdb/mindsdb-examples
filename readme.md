@@ -1,12 +1,22 @@
+<h1 align="center">
+	<img width="400" src="https://raw.githubusercontent.com/mindsdb/mindsdb/master/assets/logo_gh.png" alt="MindsDB">
+	<br>
+	<br>
+</h1>
+
 # Mindsdb Examples
 
 This repository contains examples of mindsdb usage in predicting different types of data.
 
 
 ## Installation
+
 ``
  pip3 install mindsdb --user
- 
+``
+or
+``
+pip install -r requirements.txt
 ``
 
 ## Train 
