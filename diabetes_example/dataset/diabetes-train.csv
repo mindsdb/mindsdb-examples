@@ -35,9 +35,6 @@ Number of times pregnant,Plasma glucose concentration,Diastolic blood pressure,T
 6,92,92,0,0,19.9,0.188,28,negative
 10,122,78,31,0,27.6,0.512,45,negative
 4,103,60,33,192,24.0,0.966,33,negative
-11,138,76,0,0,33.2,0.420,35,negative
-9,102,76,37,0,32.9,0.665,46,positive
-2,90,68,42,0,38.2,0.503,27,positive
 4,111,72,47,207,37.1,1.390,56,positive
 3,180,64,25,70,34.0,0.271,26,negative
 7,133,84,0,0,40.2,0.696,37,negative
@@ -56,10 +53,6 @@ Number of times pregnant,Plasma glucose concentration,Diastolic blood pressure,T
 7,150,66,42,342,34.7,0.718,42,negative
 1,73,50,10,0,23.0,0.248,21,negative
 7,187,68,39,304,37.7,0.254,41,positive
-0,100,88,60,110,46.8,0.962,31,negative
-0,146,82,0,0,40.5,1.781,44,negative
-0,105,64,41,142,41.5,0.173,22,negative
-2,84,0,0,0,0.0,0.304,21,negative
 8,133,72,0,0,32.9,0.270,39,positive
 5,44,62,0,0,25.0,0.587,36,negative
 2,141,58,34,128,25.4,0.699,24,negative
@@ -657,10 +650,7 @@ Number of times pregnant,Plasma glucose concentration,Diastolic blood pressure,T
 2,155,52,27,540,38.7,0.240,25,positive
 2,101,58,35,90,21.8,0.155,22,negative
 1,120,80,48,200,38.9,1.162,41,negative
-11,127,106,0,0,39.0,0.190,51,negative
-3,80,82,31,70,34.2,1.292,27,positive
-10,162,84,0,0,27.7,0.182,54,negative
-1,199,76,43,0,42.9,1.394,22,positive
+11,127,106,0,0,39.0,0.190,51,negativee
 8,167,106,46,231,37.6,0.165,43,positive
 9,145,80,46,130,37.9,0.637,40,positive
 6,115,60,39,0,33.7,0.245,40,positive
