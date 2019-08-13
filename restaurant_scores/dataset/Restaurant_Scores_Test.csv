@@ -1,0 +1,10 @@
+business_id,business_name,business_address,business_city,business_state,business_postal_code,business_latitude,business_longitude,business_location,business_phone_number,inspection_id,inspection_date,inspection_score,inspection_type,violation_id,violation_description,risk_category
+80361,Tadu Ethiopian Kitchen,484 Ellis St,San Francisco,CA,,,,,+14150284906,80361_20190529,05/29/2019 12:00:00 AM,92,Routine - Unscheduled,80361_20190529_103149,Wiping cloths not clean or properly stored or inadequate sanitizer,Low Risk
+84892,Denny's Restaurant,816 Mission St,San Francisco,CA,94103,,,,,84892_20190514,05/14/2019 12:00:00 AM,94,Routine - Unscheduled,84892_20190514_103154,Unclean or degraded floors walls or ceilings,Low Risk
+77054,Ramen City,1398 Grant Ave,San Francisco,CA,94133,,,,,77054_20180124,01/24/2018 12:00:00 AM,80,Routine - Unscheduled,77054_20180124_103145,Improper storage of equipment utensils or linens,Low Risk
+78724,Starbucks #6927,685 Beach St,San Francisco,CA,94109,,,,,78724_20190507,05/07/2019 12:00:00 AM,100,Routine - Unscheduled,,,
+91717,Open Kitchen,3913 24th St.,San Francisco,CA,94114,,,,,91717_20180502,05/02/2018 12:00:00 AM,94,Routine - Unscheduled,91717_20180502_103133,Foods not protected from contamination,Moderate Risk
+36745,Shanghai China Restaurant,1559 MISSION St,San Francisco,CA,94103,37.773447,-122.418123,"(37.773447, -122.418123)",,36745_20190411,04/11/2019 12:00:00 AM,85,Routine - Unscheduled,36745_20190411_103103,High risk food holding temperature,High Risk
+80302,Project Juice,790 Valencia St,San Francisco,CA,94110,,,,+14155853869,80302_20180508,05/08/2018 12:00:00 AM,94,Routine - Unscheduled,80302_20180508_103142,Unclean nonfood contact surfaces,Low Risk
+18825,Fresca Restaurant,3945 24th St,San Francisco,CA,94114,37.751474,-122.430708,"(37.751474, -122.430708)",,18825_20181126,11/26/2018 12:00:00 AM,78,Routine - Unscheduled,18825_20181126_103112,No hot water or running water,High Risk
+83476,Kio Ramen,3528 Balboa St,San Francisco,CA,94121,,,,+14155535056,83476_20180713,07/13/2018 12:00:00 AM,,Reinspection/Followup,,,
