@@ -1,7 +1,6 @@
 
 import mindsdb
 from mindsdb import Predictor
-from mindsdb.config import CONFIG
 
 # We tell mindsDB what we want to learn and from what data
 Predictor(name='beer_consumption').learn(
