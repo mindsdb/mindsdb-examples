@@ -4,7 +4,8 @@
 	<br>
 </h1>
 
-# Mindsdb Examples
+# Mindsdb Examples [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ZoranPandovski/mindsdb-examples/blob/master/)
+
 
 This repository contains examples of mindsdb usage in predicting different types of data.
 
