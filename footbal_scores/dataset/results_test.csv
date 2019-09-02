@@ -1,0 +1,23 @@
+date,home_team,away_team,home_score,away_score,tournament,city,country,neutral
+1983-05-24,Scotland,Northern Ireland,0,0,British Championship,Glasgow,Scotland,FALSE
+1983-05-25,Martinique,Saint Kitts and Nevis,7,0,CFU Caribbean Cup qualification,Fort-de-France,Martinique,FALSE
+1983-05-28,Northern Ireland,England,0,0,British Championship,Belfast,Northern Ireland,FALSE
+1991-02-20,Portugal,Malta,5,0,UEFA Euro qualification,Porto,Portugal,FALSE
+1991-02-21,Bermuda,United States,1,0,Friendly,Hamilton,Bermuda,FALSE
+1991-02-27,Belgium,Luxembourg,3,0,UEFA Euro qualification,Brussels,Belgium,FALSE
+1991-02-27,Brazil,Paraguay,1,1,Friendly,Campo Grande,Brazil,FALSE
+1999-03-31,Latvia,Greece,0,0,UEFA Euro qualification,Riga,Latvia,FALSE
+1999-03-31,Liechtenstein,Portugal,0,5,UEFA Euro qualification,Vaduz,Liechtenstein,FALSE
+1999-03-31,Lithuania,Estonia,1,2,UEFA Euro qualification,Vilnius,Lithuania,FALSE
+2008-06-06,Algeria,Liberia,3,0,FIFA World Cup qualification,Blida,Algeria,FALSE
+2008-06-06,Bangladesh,Afghanistan,2,2,SAFF Cup,Colombo,Sri Lanka,TRUE
+2008-06-06,Bermuda,Barbados,2,1,Friendly,Hamilton,Bermuda,FALSE
+2008-06-06,Brazil,Venezuela,0,2,Friendly,Foxborough,United States,TRUE
+2017-10-10,Portugal,Switzerland,2,0,FIFA World Cup qualification,Lisbon,Portugal,FALSE
+2017-10-10,Qatar,Curaçao,1,2,Friendly,Doha,Qatar,FALSE
+2017-10-10,Russia,Iran,1,1,Friendly,Kazan,Russia,FALSE
+2017-10-10,Saudi Arabia,Ghana,0,3,Friendly,Jeddah,Saudi Arabia,FALSE
+2017-10-10,Chinese Taipei,Bahrain,2,1,AFC Asian Cup qualification,Taipei,Chinese Taipei,
+2019-03-22,Andorra,Iceland,0,2,UEFA Euro qualification,Andorra la Vella,Andorra,FALSE
+2019-03-22,Moldova,France,1,4,UEFA Euro qualification,Chișinău,Moldova,FALSE
+2019-03-22,Botswana,Angola,0,1,African Cup of Nations qualification,Francistown,Botswana,FALSE
