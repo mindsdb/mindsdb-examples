@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img width="400" src="https://raw.githubusercontent.com/mindsdb/mindsdb/master/assets/logo_gh.png" alt="MindsDB">
+	<img width="300" src="https://raw.githubusercontent.com/mindsdb/mindsdb/master/assets/logo_gh.png" alt="MindsDB">
 	<br>
 	<br>
 </h1>
@@ -7,7 +7,7 @@
 # Mindsdb Examples [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ZoranPandovski/mindsdb-examples/blob/master/)
 
 
-This repository contains examples of mindsdb usage in predicting different types of data.
+This repository contains examples of [MindsDB](https://www.mindsdb.com/) usage in predicting different types of data.
 
 
 ## Installation
