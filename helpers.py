@@ -34,6 +34,9 @@ def train_test_split_dataset(dataset=None, name=None):
     create_train_dataset(X_train, name)
 
 def get_parser():
+    '''
+    Example use: python helpers.py --dataset daily-temperature/dataset/daily-min-temperatures.csv --name temperatures
+    '''
     from argparse import ArgumentParser
 
     parser = ArgumentParser(description='')
