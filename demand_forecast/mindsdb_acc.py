@@ -8,7 +8,7 @@ def run():
 
     backend = 'lightwood'
 
-    mdb.learn(from_data='train_data.csv', to_predict='sales', order_by=['date'], group_by=['store'], backend=backend)
+    mdb.learn(from_data='train_data.csv', to_predict='sales', order_by=['date'], group_by=['store'], backend=backend, window_size=5)
 
     predictions = mdb.predict(when='test_data.csv')
 
