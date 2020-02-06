@@ -14,13 +14,11 @@ def run(sample):
 
     backend='lightwood'
 
-    stop_training_in_x_seconds = round((3600 * 2))
-
     predictor = mindsdb.Predictor(name='CIFRAR_Model') #cifrara_100_resnext_50_reduced
 
     train_df = pandas.read_csv(train_file)
     train_df = train_df.drop('superclass', 1)
-    predictor.learn(from_data=train_df, to_predict=['class'], disable_optional_analysis=True, use_gpu=True, backend=backend, stop_training_in_x_seconds=stop_training_in_x_seconds, unstable_parameters_dict={'optimize_model':False})
+    predictor.learn(from_data=train_df, to_predict=['class'], disable_optional_analysis=True, use_gpu=True, backend=backend, stop_training_in_x_seconds=round((3600 * 2)))
 
     test_df = pandas.read_csv(test_file)
     test_df = test_df.drop('class', 1)
@@ -28,10 +26,8 @@ def run(sample):
     predictions = predictor.predict(when_data=test_df, unstable_parameters_dict={'always_use_model_prediction': True},use_gpu=False)
 
     predicted_class = list(map(lambda x: x['class'], predictions))
-    #predicted_superclass = list(map(lambda x: x['superclass'], predictions))
 
     real_class = []
-    real_superclass = []
     first = True
     with open(test_file) as raw_csv_fp:
         reader = csv.reader(raw_csv_fp)
@@ -40,13 +36,9 @@ def run(sample):
                 first=False
             else:
                 real_class.append(row[2])
-                real_superclass.append(row[1])
 
     acc = accuracy_score(real_class, predicted_class) * 100
     print(f'Log loss accuracy of {acc}% for classes !')
-
-    #accs = accuracy_score(real_superclass, predicted_superclass) * 100
-    #print(f'Log loss accuracy of {accs}% for superclasses !')
 
     return {
         'accuracy': acc

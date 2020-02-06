@@ -1,17 +1,13 @@
 from mindsdb import Predictor
+import lightwood
 import sys
 import csv
-from sklearn.metrics import accuracy_score, balanced_accuracy_score, confusion_matrix
+from sklearn.metrics import balanced_accuracy_score, confusion_matrix
 
 
 def run(sample):
-    if sample:
-        train_file = 'train_sample.csv'
-        test_file = 'test_sample.csv'
-    else:
-        print('Using full dataset')
-        train_file = 'train.csv'
-        test_file = 'test.csv'
+    train_file = 'train.csv'
+    test_file = 'test.csv'
 
     backend = 'lightwood'
 
@@ -25,9 +21,9 @@ def run(sample):
 
     mdb = Predictor(name='default_on_credit_dp4')
 
-    mdb.learn(to_predict='default.payment.next.month',from_data=train_file, stop_training_in_x_seconds=800,backend=backend, sample_margin_of_error=0.1, equal_accuracy_for_all_output_categories=True, unstable_parameters_dict={'optimize_model': True}, use_gpu=True)
+    mdb.learn(to_predict='default.payment.next.month',from_data=train_file, stop_training_in_x_seconds=10,backend=backend, sample_margin_of_error=0.1, equal_accuracy_for_all_output_categories=True, use_gpu=True)
 
-    predictions = mdb.predict(when_data=test_file, unstable_parameters_dict={'always_use_model_prediction': True})
+    predictions = mdb.predict(when_data=test_file)
 
     cfz = 0
     cfo = 0
@@ -56,24 +52,11 @@ def run(sample):
         except:
             target_val_predictions[i] = 2
 
-    nr_of_0 = len(list(filter(lambda x: x == 0, target_val_real)))
-    nr_of_1 = len(list(filter(lambda x: x == 1, target_val_real)))
-    print(f'The test dataset contains {nr_of_0} 0s and {nr_of_1} 1s')
-
-    acc = round(100*accuracy_score(target_val_real, target_val_predictions), 2)
-    print(f'Log loss accuracy of {acc}% !')
-
     accuracy = balanced_accuracy_score(target_val_real, target_val_predictions)
     print(f'Balacned accuracy score of {accuracy}')
 
     cm = confusion_matrix(target_val_real, target_val_predictions)
 
-    acc_0 = round(100 * (cm[0][0]/nr_of_0),2)
-    acc_1 = round(100 * (cm[1][1]/nr_of_1),2)
-
-    print(cm)
-    print(f'Accuracy of {acc_0}% for predicting 0 labels')
-    print(f'Accuracy of {acc_1}% for predicting 1 labels')
     return {
         'accuracy': accuracy
         ,'accuracy_function': 'balanced_accuracy_score'
