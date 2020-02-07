@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.metrics import r2_score
 # use the model to make predictions
 
-def run():
+def run(sample=False):
     backend='lightwood'
 
     mdb = mindsdb.Predictor(name='wineq')
