@@ -19,10 +19,10 @@ def run(sample):
 
     target_val_real = get_real_test_data()
 
-    lightwood.config.config.CONFIG.HELPER_MIXERS = False
+    #lightwood.config.config.CONFIG.HELPER_MIXERS = False
     mdb = Predictor(name='default_on_credit_dp4')
 
-    mdb.learn(to_predict='default.payment.next.month',from_data=train_file, stop_training_in_x_seconds=10,backend=backend, sample_margin_of_error=0.1, equal_accuracy_for_all_output_categories=True, use_gpu=True)
+    mdb.learn(to_predict='default.payment.next.month',from_data=train_file, backend=backend)
 
     predictions = mdb.predict(when_data=test_file)
 

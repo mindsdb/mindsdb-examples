@@ -8,7 +8,7 @@ def run(sample=False):
 
     mdb = Predictor(name='german_data')
 
-    mdb.learn(to_predict='class',from_data='processed_data/train.csv', stop_training_in_x_seconds=80,backend=backend, sample_margin_of_error=0.1, equal_accuracy_for_all_output_categories=True, use_gpu=True)
+    mdb.learn(to_predict='class',from_data='processed_data/train.csv',backend=backend)
 
     predictions = mdb.predict(when_data='processed_data/test.csv', use_gpu=True)
 

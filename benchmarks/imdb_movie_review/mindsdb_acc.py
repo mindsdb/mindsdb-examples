@@ -16,7 +16,7 @@ def run(sample):
 
     predictor = mindsdb.Predictor(name='imdb_predictor_x')
 
-    predictor.learn(from_data=train_file, to_predict=['sentiment'], disable_optional_analysis=True, use_gpu=True, backend=backend, sample_margin_of_error=0.1, unstable_parameters_dict={'force_disable_cache': False})
+    predictor.learn(from_data=train_file, to_predict=['sentiment'], disable_optional_analysis=True, backend=backend,unstable_parameters_dict={'force_disable_cache': False})
 
     predictions = predictor.predict(when_data=test_file)
 

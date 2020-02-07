@@ -9,7 +9,7 @@ def run(sample):
 
     mdb = mindsdb.Predictor(name='cancer_model')
 
-    mdb.learn(from_data='processed_data/train.csv', to_predict='diagnosis', use_gpu=True, backend=backend, stop_training_in_x_seconds=180, equal_accuracy_for_all_output_categories=True)
+    mdb.learn(from_data='processed_data/train.csv', to_predict='diagnosis', backend=backend)
 
     test_df = pd.read_csv('processed_data/test.csv')
     predictions = mdb.predict(when_data='processed_data/test.csv', unstable_parameters_dict={'always_use_model_predictions': True})
