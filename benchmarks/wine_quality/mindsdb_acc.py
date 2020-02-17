@@ -10,7 +10,7 @@ def run(sample=False):
 
     mdb.learn(from_data='processed_data/train.csv', to_predict='price', backend=backend, ignore_columns=['no'])
 
-    predictions = Predictor(name='wineq').predict(when_data='processed_data/test.csv')
+    predictions = mdb.predict(when_data='processed_data/test.csv')
 
     pred_val = [x['price'] for x in predictions]
     real_val = list(pd.read_csv(open('dataset/winemag-test.csv', 'r'))['price'])
