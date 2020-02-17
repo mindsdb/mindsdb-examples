@@ -1,6 +1,6 @@
 import mindsdb
 import pandas as pd
-from sklearn.metrics import r2_score
+from sklearn.metrics import accuracy_score
 
 def run():
     backend='lightwood'
@@ -17,7 +17,7 @@ def run():
     real_val = list(pd.read_csv(open('processed_data/test.csv', 'r'))['cnt'])
 
 
-    accuracy = r2_score(real_val, pred_val)
+    accuracy = accuracy_score(list(map(int,real_val)), list(map(int,pred_val)))
     print('Got an r2 score of:'.format(accuracy))
 
     return {
