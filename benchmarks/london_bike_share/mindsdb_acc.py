@@ -9,7 +9,7 @@ def run():
 
     mdb.learn(from_data='processed_data/train.csv', to_predict='cnt', backend=backend, window_size=5)
 
-    predictions = mdb.predict(name='lbs').predict(when_data='processed_data/test.csv')
+    predictions = mdb.predict(when_data='processed_data/test.csv')
     test_df = pd.read_csv('processed_data/test.csv')
 
     print('Predictions result: ', predictions[0])
@@ -22,7 +22,7 @@ def run():
 
     return {
         'accuracy': accuracy
-        ,'accuracy_function': 'balanced_accuracy_score'
+        ,'accuracy_function': 'r2_score'
         ,'backend': backend
     }
 
