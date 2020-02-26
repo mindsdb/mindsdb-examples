@@ -16,7 +16,7 @@ class Temperature:
         model_definition = yaml.load(open("model_defination.yaml"))
         print(model_definition)
         ludwig_model = LudwigModel(model_definition)
-        train_stats = ludwig_model.train(data_train_csv="dataset/train.csv", data_validation_csv="dataset/valid.csv",
+        train_stats = ludwig_model.train(data_train_csv="dataset/train.csv",
                                          model_name='temperature')
         print(train_stats)
 
