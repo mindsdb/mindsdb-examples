@@ -1,13 +1,12 @@
 from mindsdb import Predictor
-import lightwood
 import sys
 import csv
 from sklearn.metrics import balanced_accuracy_score, confusion_matrix
 
 
 def run(sample):
-    train_file = 'train.csv'
-    test_file = 'test.csv'
+    train_file = 'dataset/train.csv'
+    test_file = 'dataset/test.csv'
 
     backend = 'lightwood'
 

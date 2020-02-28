@@ -9,10 +9,10 @@ def run(sample):
 
     mdb = mindsdb.Predictor(name='pulsar_star_model')
 
-    mdb.learn(from_data='processed_data/train.csv', to_predict='target_class', backend=backend)
+    mdb.learn(from_data='dataset/train.csv', to_predict='target_class', backend=backend)
 
-    test_df = pd.read_csv('processed_data/test.csv')
-    predictions = mdb.predict(when_data='processed_data/test.csv')
+    test_df = pd.read_csv('dataset/test.csv')
+    predictions = mdb.predict(when_data='dataset/test.csv')
 
     results = [x['target_class'] for x in predictions]
     real = list(test_df['target_class'])

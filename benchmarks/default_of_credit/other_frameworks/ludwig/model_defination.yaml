@@ -1,0 +1,103 @@
+input_features:
+    -
+        name: ID
+        type: numerical
+    -
+        name: LIMIT_BAL
+        type: numerical
+    -
+        name: SEX
+        type: category
+
+    -
+        name: EDUCATION
+        type: category
+
+    -
+        name: MARRIAGE
+        type: category
+
+    -
+        name: AGE
+        type: numerical
+
+    -
+        name: PAY_0
+        type: numerical
+
+    -
+        name: PAY_2
+        type: numerical
+
+    -
+        name: PAY_3
+        type: numerical
+
+    -
+        name: PAY_4
+        type: numerical
+
+    -
+        name: PAY_5
+        type: numerical
+
+    -
+        name: PAY_6
+        type: numerical
+
+    -
+        name: BILL_AMT1
+        type: numerical
+
+    -
+        name: BILL_AMT2
+        type: numerical
+
+    -
+        name: BILL_AMT3
+        type: numerical
+
+    -
+        name: BILL_AMT4
+        type: numerical
+
+    -
+        name: BILL_AMT5
+        type: numerical
+
+    -
+        name: BILL_AMT6
+        type: numerical
+
+    -
+        name: PAY_AMT1
+        type: numerical
+
+    -
+        name: PAY_AMT2
+        type: numerical
+
+    -
+        name: PAY_AMT3
+        type: numerical
+
+    -
+        name: PAY_AMT4
+        type: numerical
+
+    -
+        name: PAY_AMT5
+        type: numerical
+
+    -
+        name: PAY_AMT6
+        type: numerical
+
+
+output_features:
+    -
+        name: default.payment.next.month
+        type: category
+
+
+
