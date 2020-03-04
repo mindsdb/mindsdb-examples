@@ -10,7 +10,7 @@ def main():
     train_df = df[split_maks]
     test_df = df[~split_maks]
 
-    train_df.to_csv('processed_data/train.csv', index=False)
-    test_df.to_csv('processed_data/test.csv', index=False)
+    train_df.to_csv('dataset/train.csv', index=False)
+    test_df.to_csv('dataset/test.csv', index=False)
 
 main()

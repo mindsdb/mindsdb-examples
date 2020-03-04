@@ -1,0 +1,39 @@
+input_features:
+    -
+        name: Mean_integrated
+        type: numerical
+    -
+        name: Standard_integrated
+        type: numerical
+
+    -
+        name: Excess_kurtosis
+        type: numerical
+
+    -
+        name: Skewness
+        type: numerical
+
+    -
+        name: Mean_DM-SNR
+        type: numerical
+
+    -
+        name: Standard_DM-SNR
+        type: numerical
+
+    -
+        name: kurtosis_DM-SNR
+        type: numerical
+
+    -
+        name: Skewness_DM-SNR
+        type: numerical
+
+
+output_features:
+    -
+        name: target_class
+        type: category
+
+

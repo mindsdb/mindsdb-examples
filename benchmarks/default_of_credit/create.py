@@ -2,10 +2,10 @@ import csv
 from random import randint
 
 
-all_reader = csv.reader(open('all_data.csv', 'r'))
+all_reader = csv.reader(open('raw_data/all_data.csv', 'r'))
 
-train_writer = csv.writer(open('train.csv', 'w'))
-test_writer = csv.writer(open('test.csv', 'w'))
+train_writer = csv.writer(open('dataset/train.csv', 'w'))
+test_writer = csv.writer(open('dataset/test.csv', 'w'))
 
 header = None
 for row in all_reader:
