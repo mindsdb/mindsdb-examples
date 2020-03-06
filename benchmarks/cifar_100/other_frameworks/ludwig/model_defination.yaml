@@ -1,0 +1,10 @@
+input_features:
+    -
+        name: image_path
+        type: image
+        encoder: resnet
+
+output_features:
+    -
+        name: class
+        type: category

@@ -1,0 +1,96 @@
+input_features:
+    -
+        name: radius_mean
+        type: numerical
+    -
+        name: texture_mean
+        type: numerical
+    -
+        name: perimeter_mean
+        type: numerical
+    -
+        name: area_mean
+        type: numerical
+    -
+        name: smoothness_mean
+        type: numerical
+    -
+        name: compactness_mean
+        type: numerical
+    -
+        name: concavity_mean
+        type: numerical
+    -
+        name: concave_points_mean
+        type: numerical
+    -
+        name: symmetry_mean
+        type: numerical
+    -
+        name: fractal_dimension_mean
+        type: numerical
+    -
+        name: radius_se
+        type: numerical
+    -
+        name: texture_se
+        type: numerical
+    -
+        name: perimeter_se
+        type: numerical
+    -
+        name: area_se
+        type: numerical
+    -
+        name: smoothness_se
+        type: numerical
+    -
+        name: compactness_se
+        type: numerical
+    -
+        name: concavity_se
+        type: numerical
+    -
+        name: concave_points_se
+        type: numerical
+    -
+        name: symmetry_se
+        type: numerical
+    -
+        name: fractal_dimension_se
+        type: numerical
+    -
+        name: radius_worst
+        type: numerical
+    -
+        name: texture_worst
+        type: numerical
+    -
+        name: perimeter_worst
+        type: numerical
+    -
+        name: area_worst
+        type: numerical
+    -
+        name: smoothness_worst
+        type: numerical
+    -
+        name: compactness_worst
+        type: numerical
+    -
+        name: concavity_worst
+        type: numerical
+    -
+        name: concave_points_worst
+        type: numerical
+    -
+        name: symmetry_worst
+        type: numerical
+    -
+        name: fractal_dimension_worst
+        type: numerical
+
+output_features:
+    -
+        name: diagnosis
+        type: category
