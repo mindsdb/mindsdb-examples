@@ -1,10 +1,12 @@
 import mindsdb
+import lightwood
 import pandas as pd
-from sklearn.metrics import r2_score
 import numpy as np
 import math
-# use the model to make predictions
+from sklearn.metrics import r2_score
 
+
+# use the model to make predictions
 def pct_error(yt, yp, allowed_err=0):
     y_true = []
     y_pred = []
@@ -27,7 +29,7 @@ def pct_error(yt, yp, allowed_err=0):
 
 def run(sample=False):
     backend='lightwood'
-
+    lightwood.config.config.CONFIG.HELPER_MIXERS = False
     # Instantiate a mindsdb Predictor
     mdb = mindsdb.Predictor(name='home_rentals')
 
@@ -46,7 +48,8 @@ def run(sample=False):
     real_val = list(pd.read_csv(open('dataset/home_rentals_test.csv', 'r'))['rental_price'])
     real_val = [x if str(x) != 'nan' else 0 for x in real_val]
 
-    print(real_val, pred_val)
+    accuracy = r2_score([math.log(x) if x > 0 else 0 for x in real_val], [math.log(x) if x > 0 else 0 for x in pred_val])
+    print(f'Got an r2_score for the log predictions of: {accuracy}')
 
     accuracy = pct_error(real_val, pred_val, 0.05)
     print(f'Got a percentage accuracy score with error-margin 5% of: {accuracy}')

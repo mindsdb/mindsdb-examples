@@ -9,7 +9,7 @@ def run(sample):
 
     mdb = mindsdb.Predictor(name='pulsar_star_model')
 
-    mdb.learn(from_data='dataset/train.csv', to_predict='target_class', backend=backend)
+    mdb.learn(from_data='dataset/train.csv', to_predict='target_class', backend=backend, stop_training_in_x_seconds=10)
 
     test_df = pd.read_csv('dataset/test.csv')
     predictions = mdb.predict(when_data='dataset/test.csv')
