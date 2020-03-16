@@ -29,7 +29,7 @@ def run():
 
     mdb = mindsdb.Predictor(name='lbs')
 
-    #mdb.learn(from_data='processed_data/train.csv', to_predict='cnt', backend=backend, window_size=5)
+    mdb.learn(from_data='processed_data/train.csv', to_predict='cnt', backend=backend, window_size=5)
 
     predictions = mdb.predict(when_data='processed_data/test.csv')
 
