@@ -2,6 +2,8 @@ import mindsdb
 import pandas as pd
 import numpy as np
 import math
+from sklearn.metrics import r2_score
+
 # use the model to make predictions
 
 def pct_error(yt, yp, allowed_err=0):
