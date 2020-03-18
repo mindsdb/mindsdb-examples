@@ -22,7 +22,8 @@ def confidence_suffle(columns, df_train, df_test, acc_score, to_predict):
     predictions = predictor.predict(when_data=df_test)
     explainations = [x.explanation for x in predictions]
 
-    normal_confidence = np.mean(np.array([x[to_predict]['confidence'] for x in explainations]))
+    normal_confidence = np.mean(np.array( [x[to_predict]['confidence'] for x in explainations] ))
+
     norma_accuracy = acc_score(list(df_test[to_predict]), [x[to_predict]['predicted_value'] for x in explainations])
 
     previously_removed = []
@@ -50,7 +51,7 @@ def confidence_suffle(columns, df_train, df_test, acc_score, to_predict):
     predictions = predictor.predict(when_data=test)
     explainations = [x.explanation for x in predictions]
 
-    multiple_removed_confidence = np.mean(np.array([x[to_predict]['confidence'] for x in explainations])))
+    multiple_removed_confidence = np.mean(np.array([x[to_predict]['confidence'] for x in explainations]))
     multiple_removed_accuracy = acc_score(list(test[to_predict]), [x[to_predict]['predicted_value'] for x in explainations])
     '''
     if len(columns) > 2:
