@@ -11,24 +11,19 @@ mdb = mindsdb.Predictor(name='home_rentals')
 
 # We tell the Predictor what column or key we want to learn and from what data
 
-mdb.learn(
-    from_data='dataset/home_rentals_train.csv', # the path to the file where we can learn from, (note: can be url)
-    to_predict='rental_price', # the column we want to learn to predict given all the data in the file
-)
+mdb.learn(from_data='dataset/home_rentals_train.csv', to_predict='rental_price')
 
 predictions = mdb.predict(when_data='dataset/home_rentals_train.csv')
 intervals_all = [x.explanation['rental_price']['explanation']['confidence_interval'] for x in predictions]
-
+for x in intervals_all:
+    print(x)
 
 droped_data = pd.read_csv('dataset/home_rentals_train.csv')
 droped_data = droped_data.drop(columns=['sqft','location','days_on_market'])
 
 mdb = mindsdb.Predictor(name='home_rentals_dropped')
 
-mdb.learn(
-    from_data=droped_data, # the path to the file where we can learn from, (note: can be url)
-    to_predict='rental_price', # the column we want to learn to predict given all the data in the file
-)
+mdb.learn(from_data=droped_data, to_predict='rental_price')
 
 droped_data_test = pd.read_csv('dataset/home_rentals_train.csv')
 droped_data_test = droped_data_test.drop(columns=['sqft','location','days_on_market'])
@@ -36,14 +31,14 @@ droped_data_test = droped_data_test.drop(columns=['sqft','location','days_on_mar
 predictions_dropped = mdb.predict(when_data=droped_data)
 
 intervals_droped = [x.explanation['rental_price']['explanation']['confidence_interval'] for x in predictions_dropped]
-
 interval_wider = 0
 intravel_smaller = 0
 intrval_same = 0
 for i in range(len(intervals_all)):
-    print(intervals_droped[i][1], intervals_droped[i][0], intervals_droped[i][1] - intervals_droped[i][0])
-    print(intervals_all[i][1], intervals_all[i][0], intervals_all[i][1] - intervals_all[i][0])
-
+    print('------------')
+    print(intervals_droped[i])
+    print(intervals_all[i])
+    print('###############')
     if (intervals_droped[i][1] - intervals_droped[i][0]) > (intervals_all[i][1] - intervals_all[i][0]):
         interval_wider += 1
     elif (intervals_droped[i][1] - intervals_droped[i][0]) == (intervals_all[i][1] - intervals_all[i][0]):
