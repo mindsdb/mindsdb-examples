@@ -12,7 +12,7 @@ def run():
     # We tell the Predictor what column or key we want to learn and from what data
     mdb.learn(
         from_data="processed_data/train.csv",
-        to_predict=target
+        to_predict=target,
         backend = backend
     )
 
