@@ -13,7 +13,8 @@ def run():
     mdb.learn(
         from_data="processed_data/train.csv",
         to_predict=target,
-        backend = backend
+        backend = backend,
+        use_gpu=False
     )
 
     test_df = pd.read_csv('processed_data/test.csv')
@@ -21,7 +22,7 @@ def run():
 
     results = [str(x[target]) for x in predictions]
     real = list(map(str,list(test_df[target])))
-    accuracy = r2_score(real, results)
+    accuracy = accuracy_score(real, results)
     print(accuracy)
 
     return {
