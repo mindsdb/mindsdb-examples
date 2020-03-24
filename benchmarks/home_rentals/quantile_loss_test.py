@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 test_prefix = 'test'
-run_learn = True
+run_learn = False
 drop_cols = ['initial_price', 'location']
 
 backend='lightwood'
@@ -29,9 +29,9 @@ incorrect = 0
 
 for i, x in enumerate(intervals_all):
     if x[0] < 0:
-        negatives += 1
+        negative += 1
     elif x[1] < 0:
-        negatives += 1
+        negative += 1
     else:
         positive += 1
 
@@ -49,6 +49,7 @@ print(f'Out of the intervals {correct} were correct (real value was within the i
 print(f'Out of the intervals {positive} contained only positive values and {negative} contained at least one negative value (gross prediction error, since all the targets are positive)')
 print(f'The mean range of the intervals was {mean_iw}')
 print(f'The standard deviation for the ranges was {std_iw}')
+
 exit()
 
 droped_data = pd.read_csv('dataset/train.csv')
