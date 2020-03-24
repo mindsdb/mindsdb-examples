@@ -29,7 +29,7 @@ def pct_error(yt, yp, allowed_err=0):
 
 def run(sample=False):
     backend='lightwood'
-    lightwood.config.config.CONFIG.HELPER_MIXERS = True
+    lightwood.config.config.CONFIG.HELPER_MIXERS = False
     # Instantiate a mindsdb Predictor
     mdb = mindsdb.Predictor(name='home_rentals')
 

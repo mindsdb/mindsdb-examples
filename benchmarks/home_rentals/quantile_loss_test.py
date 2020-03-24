@@ -3,8 +3,8 @@ import lightwood
 import pandas as pd
 import numpy as np
 
-test_prefix = 'test'
-run_learn = False
+test_prefix = 'train'
+run_learn = True
 drop_cols = ['initial_price', 'location']
 
 backend='lightwood'
