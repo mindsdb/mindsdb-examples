@@ -3,7 +3,7 @@ import lightwood
 import pandas as pd
 import numpy as np
 
-test_prefix = 'train'
+test_prefix = 'test'
 run_learn = True
 drop_cols = ['initial_price', 'location']
 
@@ -16,7 +16,8 @@ mdb = mindsdb.Predictor(name='home_rentals')
 
 if run_learn:
     mdb.learn(from_data='dataset/train.csv', to_predict='rental_price')
-
+    # ,ignore_columns=['number_of_rooms','number_of_bathrooms','sqft','location','days_on_market','neighborhood']
+    
 predictions = mdb.predict(when_data=f'dataset/{test_prefix}.csv')
 real_values = pd.read_csv(f'dataset/{test_prefix}.csv')['rental_price']
 intervals_all = [x.explanation['rental_price']['explanation']['confidence_interval'] for x in predictions]
@@ -41,7 +42,8 @@ for i, x in enumerate(intervals_all):
         incorrect += 1
 
 interval_width = [x[1] - x[0] for x in intervals_all]
-
+for x in intervals_all:
+    print(x)
 mean_iw = np.mean(interval_width)
 std_iw = np.std(interval_width)
 
