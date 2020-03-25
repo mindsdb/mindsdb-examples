@@ -29,7 +29,7 @@ def pct_error(yt, yp, allowed_err=0):
 
 def run(sample=False):
     backend='lightwood'
-    lightwood.config.config.CONFIG.HELPER_MIXERS = False
+    lightwood.config.config.CONFIG.HELPER_MIXERS = True
     # Instantiate a mindsdb Predictor
     mdb = mindsdb.Predictor(name='home_rentals')
 
@@ -46,7 +46,7 @@ def run(sample=False):
 
     #pred_val = [x['rental_price'] for x in predictions]
     pred_val = [x.explain()['rental_price'][0]['model_result']['value'] for x in predictions]
-    print(pred_val)
+    print([x.explanation['rental_price']['confidence'] for x in predictions])
     real_val = list(pd.read_csv(open('dataset/test.csv', 'r'))['rental_price'])
     real_val = [x if str(x) != 'nan' else 0 for x in real_val]
 

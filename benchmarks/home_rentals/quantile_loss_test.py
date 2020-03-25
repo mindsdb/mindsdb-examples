@@ -4,11 +4,11 @@ import pandas as pd
 import numpy as np
 
 test_prefix = 'test'
-run_learn = True
+run_learn = False
 drop_cols = ['initial_price', 'location']
 
 backend='lightwood'
-lightwood.config.config.CONFIG.HELPER_MIXERS = False
+lightwood.config.config.CONFIG.HELPER_MIXERS = True
 # Instantiate a mindsdb Predictor
 mdb = mindsdb.Predictor(name='home_rentals')
 
@@ -16,8 +16,9 @@ mdb = mindsdb.Predictor(name='home_rentals')
 
 if run_learn:
     mdb.learn(from_data='dataset/train.csv', to_predict='rental_price')
-    # ,ignore_columns=['number_of_rooms','number_of_bathrooms','sqft','location','days_on_market','neighborhood']
-    
+
+# ignore_columns=['number_of_rooms','number_of_bathrooms','sqft','location','days_on_market','neighborhood']
+
 predictions = mdb.predict(when_data=f'dataset/{test_prefix}.csv')
 real_values = pd.read_csv(f'dataset/{test_prefix}.csv')['rental_price']
 intervals_all = [x.explanation['rental_price']['explanation']['confidence_interval'] for x in predictions]
