@@ -1,4 +1,4 @@
-image_path,class
+image_path, class
 /test/Train_264.jpg,healthy
 /test/Train_190.jpg,scab
 /test/Train_330.jpg,healthy
