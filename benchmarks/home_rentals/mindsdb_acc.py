@@ -29,25 +29,25 @@ def pct_error(yt, yp, allowed_err=0):
 
 def run(sample=False):
     backend='lightwood'
-    lightwood.config.config.CONFIG.HELPER_MIXERS = False
+    lightwood.config.config.CONFIG.HELPER_MIXERS = True
     # Instantiate a mindsdb Predictor
     mdb = mindsdb.Predictor(name='home_rentals')
 
     # We tell the Predictor what column or key we want to learn and from what data
 
     mdb.learn(
-        from_data="dataset/home_rentals_train.csv", # the path to the file where we can learn from, (note: can be url)
+        from_data="dataset/train.csv", # the path to the file where we can learn from, (note: can be url)
         to_predict='rental_price', # the column we want to learn to predict given all the data in the file
     )
 
-    predictions = mdb.predict(when_data='dataset/home_rentals_test.csv')
+    predictions = mdb.predict(when_data='dataset/test.csv')
     #for p in predictions: print(p.explain())
     #exit()
 
     #pred_val = [x['rental_price'] for x in predictions]
     pred_val = [x.explain()['rental_price'][0]['model_result']['value'] for x in predictions]
-    print(pred_val)
-    real_val = list(pd.read_csv(open('dataset/home_rentals_test.csv', 'r'))['rental_price'])
+    print([x.explanation['rental_price']['confidence'] for x in predictions])
+    real_val = list(pd.read_csv(open('dataset/test.csv', 'r'))['rental_price'])
     real_val = [x if str(x) != 'nan' else 0 for x in real_val]
 
     accuracy = r2_score([math.log(x) if x > 0 else 0 for x in real_val], [math.log(x) if x > 0 else 0 for x in pred_val])
