@@ -1,8 +1,6 @@
 import mindsdb
 import pandas as pd
-import numpy as np
-import math
-from sklearn.metrics import r2_score, balanced_accuracy_score
+from sklearn.metrics import balanced_accuracy_score
 
 def run():
     backend='lightwood'
