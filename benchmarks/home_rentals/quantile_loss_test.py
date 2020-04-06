@@ -3,8 +3,8 @@ import lightwood
 import pandas as pd
 import numpy as np
 
-test_prefix = 'test'
-run_learn = False
+test_prefix = 'train'
+run_learn = True
 drop_cols = ['initial_price', 'location']
 
 backend='lightwood'
@@ -37,7 +37,7 @@ for i, x in enumerate(intervals_all):
     else:
         positive += 1
 
-    if x[0] < real_values[i] < x[1]:
+    if x[0] <= real_values[i] <= x[1]:
         correct += 1
     else:
         incorrect += 1

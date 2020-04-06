@@ -2,6 +2,7 @@ import mindsdb
 import pandas as pd
 from sklearn.metrics import balanced_accuracy_score
 
+
 predictor = mindsdb.Predictor(name='default_on_credit_preditor')
 predictions = predictor.predict(when_data='dataset/test.csv')
 
