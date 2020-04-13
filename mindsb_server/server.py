@@ -39,14 +39,14 @@ def query_predictor(url, data):
     response = requests.request('POST', url + '/predict', json=data)
     return response.text
 
-def analyse_dataset(url, data):
+def analyse_dataset(url, from_data):
     '''
     Analayse dataset for a specific predictor.
     :param url: analyse_dataset service url
-    :param data: the data contains the dataset
+    :param from_data: data that contains the dataset
     :returns: dataset information as json
     '''   
-    response = requests.request('GET', url + '/analyse_dataset', json=data)
+    response = requests.request('GET', url + '/analyse_dataset?from_data='+ from_data)
     return response.text
 
 
@@ -107,11 +107,8 @@ if __name__ == "__main__":
     }
     #print(query_predictor(predictor_api, data))
 
-    # analyze dataset
-    an_data = dict(
-        from_data = 'https://raw.githubusercontent.com/mindsdb/mindsdb-examples/master/benchmarks/heart_disease/processed_data/train.csv'
-    )
-    #print(analyse_dataset(predictor_api, an_data))
+    # analyze dataset    
+    #print(analyse_dataset(predictor_api, dataset))
 
     # create datasource
     ds_api = 'http://127.0.0.1:47334/datasources/'
