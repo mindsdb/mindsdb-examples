@@ -39,6 +39,16 @@ def query_predictor(url, data):
     response = requests.request('POST', url + '/predict', json=data)
     return response.text
 
+def analyse_dataset(url, data):
+    '''
+    Analayse dataset for a specific predictor.
+    :param url: analyse_dataset service url
+    :param data: the data contains the dataset
+    :returns: dataset information as json
+    '''   
+    response = requests.request('GET', url + '/analyse_dataset', json=data)
+    return response.text
+
 
 def create_datasource(url, name, data):
     '''
@@ -72,16 +82,16 @@ if __name__ == "__main__":
     # the name of the predictor
     predictor_name = 'test_predictor'
     # endpoint url
-    url = 'http://localhost:47334/predictors/' + predictor_name
+    predictor_api = 'http://localhost:47334/predictors/' + predictor_name
 
     # url to dataset
     dataset = 'https://raw.githubusercontent.com/mindsdb/mindsdb-examples/master/benchmarks/heart_disease/processed_data/train.csv'
     
     # create new predictor   
-    #print(create_predictor(url, dataset, to_predict))
+    #print(create_predictor(predictor_api, dataset, to_predict))
 
     # get predictor metadata
-    #print(get_predictor_metadata(url))
+    #print(get_predictor_metadata(predictor_api))
 
     # dictionary used for making a single prediction, each key is the name of an input column 
     data = {
@@ -95,7 +105,13 @@ if __name__ == "__main__":
             'thal': '3',
         }
     }
-    #print(query_predictor(url, data))
+    #print(query_predictor(predictor_api, data))
+
+    # analyze dataset
+    an_data = dict(
+        from_data = 'https://raw.githubusercontent.com/mindsdb/mindsdb-examples/master/benchmarks/heart_disease/processed_data/train.csv'
+    )
+    #print(analyse_dataset(predictor_api, an_data))
 
     # create datasource
     ds_api = 'http://127.0.0.1:47334/datasources/'
