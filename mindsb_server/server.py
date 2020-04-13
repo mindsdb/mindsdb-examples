@@ -1,7 +1,7 @@
 import requests
-import pandas
+import pandas as pd
 import json
-
+from mindsdb import FileDS
 
 def create_predictor(url, dataset, to_predict):
     '''
@@ -40,6 +40,30 @@ def query_predictor(url, data):
     return response.text
 
 
+def create_datasource(url, name, data):
+    '''
+    Add new datasource
+    :param url: create datasource service url
+    :param name: the name of the new datasource
+    :param data: dict with name, datasources type and datset
+    :returns: created datasource as json
+    '''
+    response = requests.request('PUT', url + name, json=data)
+    return response.text
+
+
+def get_datasource(url, name):
+    '''
+    Get specific datasource
+    :param url: get datasource service url
+    :param name: the name of the datasource
+    :returns: datasource object as json
+    '''
+    datasource_api = url + name
+    response = requests.request('GET', url= datasource_api)
+    return response.text
+
+
 if __name__ == "__main__":
 
     # feature that we want to predict
@@ -53,14 +77,13 @@ if __name__ == "__main__":
     # url to dataset
     dataset = 'https://raw.githubusercontent.com/mindsdb/mindsdb-examples/master/benchmarks/heart_disease/processed_data/train.csv'
     
-
-    # create new predictor
+    # create new predictor   
     #print(create_predictor(url, dataset, to_predict))
 
     # get predictor metadata
     #print(get_predictor_metadata(url))
 
-    # get predictions
+    # dictionary used for making a single prediction, each key is the name of an input column 
     data = {
         'when': {
             'age': '25',
@@ -72,4 +95,17 @@ if __name__ == "__main__":
             'thal': '3',
         }
     }
-    print(query_predictor(url, data))
+    #print(query_predictor(url, data))
+
+    # create datasource
+    ds_api = 'http://127.0.0.1:47334/datasources/'
+    ds_name = 'test_ds'
+    ds_data = dict(
+        name = 'test_ds',
+        source_type = 'url',
+        source = 'https://raw.githubusercontent.com/mindsdb/mindsdb-examples/master/benchmarks/heart_disease/processed_data/train.csv'
+    )
+    #create_datasource(ds_api, ds_name, ds_data)
+
+    # get datasource
+    #print(get_datasource(ds_api, ds_name))
