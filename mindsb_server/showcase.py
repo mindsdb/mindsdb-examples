@@ -4,24 +4,24 @@ import json
 root_url = 'http://localhost:47334'
 
 # Specify the training data and the value you want predicted
-train_data_url = 'https://raw.githubusercontent.com/mindsdb/mindsdb-examples/master/benchmarks/heart_disease/processed_data/train.csv'
+train_data_url = 'https://raw.githubusercontent.com/mindsdb/mindsdb-examples/master/benchmarks/heart_disease/raw_data/heart.csv'
 train_data = {
     'to_predict': 'target',
     'from_data': train_data_url
     }
 
 # Run a statistical analysis of the data to gather insights about it
-#response = requests.request('GET', f'{root_url}/predictors/any/analyse_dataset', params=train_data)
-#print(response.text)
+response = requests.request('GET', f'{root_url}/predictors/any/analyse_dataset', params=train_data)
+print(response.text)
 
 # Create a Predictor (this will automatically start training the Predictor with the training data specified to predicted the outputs)
 predictor_name = 'heart_disease_predictor'
-#response = requests.request('PUT', f'{root_url}/predictors/{predictor_name}', json=train_data)
-#print(response.text)
+response = requests.request('PUT', f'{root_url}/predictors/{predictor_name}', json=train_data)
+print(response.text)
 
 # Get a metadata for the created predictor
-#response = requests.request('GET', f'{root_url}/predictors/{predictor_name}')
-#print(response.text)
+response = requests.request('GET', f'{root_url}/predictors/{predictor_name}')
+print(response.text)
 
 # Get a prediction based on some incomplete data
 test_data = {
@@ -59,3 +59,17 @@ new_first_prediction = response.json()[0]['target']
 predicted_value = new_first_prediction[0]['value']
 confidence_percentage = round(100* new_first_prediction[0]['confidence'])
 print(f'New predicted value of {predicted_value} with a confidence of {confidence_percentage}%')
+
+# Create a new DataSource. MindsDB Datasources are simmilar to pandas DataFrames with additonal clean and parse functions
+datasource_name = 'heart_disease_ds'
+datasource_url = f'{root_url}/datasources/{datasource_name}'
+ds_data = {
+     'name' : datasource_name,
+    'source_type' :'url',
+    'source' :train_data_url
+}
+response = requests.request('PUT', datasource_url, json=ds_data)
+
+# Get created datasource
+response = requests.request('GET', url=datasource_url)
+print(f'{datasource_name} datasource: {response.text}')
