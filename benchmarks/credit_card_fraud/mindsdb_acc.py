@@ -12,7 +12,7 @@ def run():
     predictions = mdb.predict(when_data='processed_data/test.csv')
 
     pred_val = [int(x['Class']) for x in predictions]
-    real_val = [int(x) for x in list(pd.read_csv(open('processed_data/test.csv', 'r'))['Class'])]
+    real_val = [int(x) for x in list(pd.read_csv('processed_data/test.csv')['Class'])]
 
     accuracy = balanced_accuracy_score(real_val, pred_val)
 
