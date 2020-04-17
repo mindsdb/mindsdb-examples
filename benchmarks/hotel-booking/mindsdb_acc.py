@@ -9,11 +9,11 @@ def run():
 
     mdb = mindsdb.Predictor(name='hotel_booking')
 
-    mdb.learn(from_data='dataset/train.csv', to_predict='is_canceled', backend=backend,
+    mdb.learn(from_data='processed_data/train.csv', to_predict='is_canceled', backend=backend,
               disable_optional_analysis=True)
 
-    test_df = pd.read_csv('dataset/test.csv')
-    predictions = mdb.predict(when_data='dataset/test.csv',
+    test_df = pd.read_csv('processed_data/test.csv')
+    predictions = mdb.predict(when_data='processed_data/test.csv',
                               unstable_parameters_dict={'always_use_model_predictions': True})
 
     results = [str(x['is_canceled']) for x in predictions]
