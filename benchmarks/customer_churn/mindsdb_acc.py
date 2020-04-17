@@ -1,6 +1,6 @@
 import mindsdb
 import pandas as pd
-from sklearn.metrics import balanced_accuracy_score
+from sklearn.metrics import accuracy_score
 
 
 def run():
@@ -19,13 +19,13 @@ def run():
     results = [str(x['Churn']) for x in predictions]
     real = list(map(str, list(test_df['Churn'])))
 
-    accuracy = balanced_accuracy_score(real, results)
+    accuracy = accuracy_score(real, results)
 
     #show additional info for each transaction row
     additional_info = [x.explanation for x in predictions]
     return {
         'accuracy': accuracy,
-        'accuracy_function': 'balanced_accuracy_score',
+        'accuracy_function': 'accuracy_score',
         'backend': backend,
         'additinal_indfo': additional_info
     }
