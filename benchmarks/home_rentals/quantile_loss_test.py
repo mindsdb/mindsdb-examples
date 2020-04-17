@@ -3,12 +3,12 @@ import lightwood
 import pandas as pd
 import numpy as np
 
-test_prefix = 'train'
+test_prefix = 'test'
 run_learn = True
 drop_cols = ['initial_price', 'location']
 
 backend='lightwood'
-lightwood.config.config.CONFIG.HELPER_MIXERS = True
+lightwood.config.config.CONFIG.HELPER_MIXERS = False
 # Instantiate a mindsdb Predictor
 mdb = mindsdb.Predictor(name='home_rentals')
 
