@@ -21,10 +21,13 @@ def run():
 
     accuracy = balanced_accuracy_score(real, results)
 
+    #show additional info for each transaction row
+    additional_info = [x.explanation for x in predictions]
     return {
-        'accuracy': accuracy
-        , 'accuracy_function': 'balanced_accuracy_score'
-        , 'backend': backend
+        'accuracy': accuracy,
+        'accuracy_function': 'balanced_accuracy_score',
+        'backend': backend,
+        'additinal_indfo': additional_info
     }
 
 
