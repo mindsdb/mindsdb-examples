@@ -35,11 +35,11 @@ python3 train.py
 
 ## Predict
 
-Inside dataset directory you can find dataset with Test data. e.g home_rentals/dataset/home_rentals_train.csv. You can use values from this dataset to check the accuracy for prediction.
+Inside dataset directory you can find dataset with Test data. e.g benchmarks/home_rentals/dataset/home_rentals_train.csv. You can use this dataset to check the prediction accuracy.
 
 ```
-cd home_rentals
-python3 predict.py
+cd benchmarks/home_rentals
+python3 mindsdb_acc.py
 ```
 
 ## Simple Usage
