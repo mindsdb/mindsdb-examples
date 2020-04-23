@@ -44,6 +44,7 @@ def run(sample=False):
     mdb.learn(
         from_data=train_df, # the path to the file where we can learn from, (note: can be url)
         to_predict='rental_price' # the column we want to learn to predict given all the data in the file
+    	,stop_training_in_x_seconds=10
     )
     #'''
 

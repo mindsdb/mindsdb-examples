@@ -1,5 +1,5 @@
 import requests
-import json
+
 
 root_url = 'http://localhost:47334'
 datasource_train = 'wine_train'
@@ -21,7 +21,7 @@ resp = requests.request('PUT',
 predictor_name = 'wine_price_predictor'
 
 # Train the predictor
-'''
+
 response = requests.request('PUT', f'{root_url}/predictors/{predictor_name}', json={'data_source_name':datasource_train, 'to_predict': ['price'], 'kwargs': {
         'backend': 'lightwood' # Alternative supported backend is 'ludwig', the default is `lightwood`, here just for showcasing purposes
         ,'ignore_columns': ['no'] # This is just an id, it's unique for each row and thus useless for training, at most it will cause the model to learn something wrong, so we should ignoe it (note: Mindsdb has a built-in functionality for figuring out if a column is an id and ignoring it, but it's not perfect, it's always better to specify this manually)
@@ -31,7 +31,7 @@ response = requests.request('PUT', f'{root_url}/predictors/{predictor_name}', js
         ,'stop_training_in_x_seconds': 1800 # We don't want training to take forever, we'll stop after a maximum of 30 minutes, though this *might* hurt accuracy (note, this is not exact but rather a guideline, it might take up to e.g 36 minutes for the training of the model to finish)
 
     }})
-'''
+
 # Note: `kwargs` are the argument you can pass to the mindsdb `.learn` function itself: to see all the potential values for this argument, read this part of the documentation: https://mindsdb.github.io/mindsdb/docs/predictor-interface#learn
 
 # Get the model to make some predictions
