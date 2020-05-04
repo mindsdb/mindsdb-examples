@@ -8,7 +8,7 @@ def run(sample=False):
 
     mdb = mindsdb.Predictor(name='wineq')
 
-    #mdb.learn(from_data='processed_data/train.csv', to_predict='price', backend=backend, ignore_columns=['no'], use_gpu=True)
+    mdb.learn(from_data='processed_data/train.csv', to_predict='price', backend=backend, ignore_columns=['no'], use_gpu=True)
 
     predictions = mdb.predict(when_data=pd.read_csv('processed_data/test.csv'))
 
@@ -36,7 +36,7 @@ def run(sample=False):
 
     return {
         'accuracy': accuracy
-        ,'accuracy_function': 'balanced_accuracy_score'
+        ,'accuracy_function': 'r2_score'
         ,'backend': backend
     }
 
