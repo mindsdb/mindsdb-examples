@@ -52,36 +52,3 @@ print(f'Out of the intervals {correct} were correct (real value was within the i
 print(f'Out of the intervals {positive} contained only positive values and {negative} contained at least one negative value (gross prediction error, since all the targets are positive)')
 print(f'The mean range of the intervals was {mean_iw}')
 print(f'The standard deviation for the ranges was {std_iw}')
-
-exit()
-
-droped_data = pd.read_csv('dataset/train.csv')
-droped_data = droped_data.drop(columns=drop_cols)
-
-mdb = mindsdb.Predictor(name='home_rentals_dropped')
-
-if run_learn:
-    mdb.learn(from_data=droped_data, to_predict='rental_price')
-
-droped_data_test = pd.read_csv(f'dataset/{test_prefix}.csv')
-droped_data_test = droped_data_test.drop(columns=drop_cols)
-
-predictions_dropped = mdb.predict(when_data=droped_data_test)
-
-intervals_droped = [x.explanation['rental_price']['explanation']['confidence_interval'] for x in predictions_dropped]
-interval_wider = 0
-intravel_smaller = 0
-intrval_same = 0
-for i in range(len(intervals_all)):
-    print('------------')
-    print(intervals_droped[i])
-    print(intervals_all[i])
-    print('###############')
-    if (intervals_droped[i][1] - intervals_droped[i][0]) > (intervals_all[i][1] - intervals_all[i][0]):
-        interval_wider += 1
-    elif (intervals_droped[i][1] - intervals_droped[i][0]) == (intervals_all[i][1] - intervals_all[i][0]):
-        intrval_same += 1
-    else:
-        intravel_smaller += 1
-
-print(f'Intravel with dropped columns is wider in {interval_wider} cases and smaller in {intravel_smaller} cases and the same in {intrval_same} cases')
