@@ -12,22 +12,22 @@ def run(sample=False):
 
     predictions = mdb.predict(when_data='processed_data/test.csv')
 
-    predicted_class = [x['class'] for x in predictions]
-    real_class = list(pd.read_csv('processed_data/test.csv')['class'])
+    predicted_val = [x.explanation['class']['predicted_value'] for x in predictions]
+    real_val = list(pd.read_csv('processed_data/test.csv')['class'])
 
-    accuracy = balanced_accuracy_score(real_class, predicted_class)
-    print(f'Balacned accuracy score of {accuracy}')
+    accuracy = balanced_accuracy_score(real_val, predicted_val)
 
-    cm = confusion_matrix(real_class, predicted_class)
+    cm = confusion_matrix(real_val, predicted_val)
     print(cm)
 
+    #show additional info for each transaction row
     additional_info = [x.explanation for x in predictions]
 
     return {
         'accuracy': accuracy,
         'accuracy_function': 'balanced_accuracy_score',
         'backend': backend,
-        'additional_info': additional_info
+        'single_row_predictions': additional_info
     }
 
 

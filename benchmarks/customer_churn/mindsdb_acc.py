@@ -29,10 +29,9 @@ def run():
         'accuracy': accuracy,
         'accuracy_function': 'accuracy_score',
         'backend': backend,
-        'prediction_per_row': additional_info
+        'single_row_predictions': additional_info
     }
 
 
 if __name__ == '__main__':
-    result = run()
-    print(result)
+    print(run())
