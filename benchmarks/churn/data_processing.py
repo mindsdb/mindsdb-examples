@@ -1,0 +1,16 @@
+import numpy as np
+import pandas as pd
+
+
+def main():
+    df = pd.read_csv('raw_data/datasets_729058_1265963_Churn_Modelling.csv')
+    df = df.drop(columns=['RowNumber','CustomerId','Surname'])
+    np.random.seed(555)
+    split_maks = np.random.rand(len(df)) < 0.8
+    train_df = df[split_maks]
+    test_df = df[~split_maks]
+
+    train_df.to_csv('dataset/train.csv', index=False)
+    test_df.to_csv('dataset/test.csv', index=False)
+
+main()
