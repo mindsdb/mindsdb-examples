@@ -8,8 +8,7 @@ def run():
 
     mdb = mindsdb.Predictor(name='Admission_prediction_model')
 
-    mdb.learn(from_data='dataset/train.csv', to_predict='Chance of Admit ', backend=backend,
-              disable_optional_analysis=True)
+    mdb.learn(from_data='dataset/train.csv', to_predict='Chance of Admit ', backend=backend)
 
     predictions = mdb.predict(when_data='dataset/test.csv',
                               unstable_parameters_dict={'always_use_model_predictions': True})

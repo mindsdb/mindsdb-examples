@@ -10,7 +10,7 @@ test_file = 'test_sample.csv'
 predictor = mindsdb.Predictor(name='cifrar_100_predictor')
 
 # Train it
-predictor.learn(from_data=train_file, to_predict=['class'], disable_optional_analysis=True, use_gpu=True, backend='lightwood', sample_margin_of_error=0.01, ignore_columns=['superclass'])
+predictor.learn(from_data=train_file, to_predict=['class'], use_gpu=True, backend='lightwood', sample_margin_of_error=0.01, ignore_columns=['superclass'])
 
 # Predict the class for each image on the testing set
 predictions = predictor.predict(when_data=test_file)
