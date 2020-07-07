@@ -9,8 +9,7 @@ def run():
     mdb = mindsdb.Predictor(name='employee_retention_model')
 
     mdb.learn(from_data='dataset/train.csv', to_predict='Churn', backend=backend,
-              output_categories_importance_dictionary={'Yes': 1, 'No': 0.5},
-              disable_optional_analysis=True)
+              output_categories_importance_dictionary={'Yes': 1, 'No': 0.5})
 
     test_df = pd.read_csv('dataset/test.csv')
     predictions = mdb.predict(when_data='dataset/test.csv',

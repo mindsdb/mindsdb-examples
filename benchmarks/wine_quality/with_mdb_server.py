@@ -27,7 +27,6 @@ response = requests.request('PUT', f'{root_url}/predictors/{predictor_name}', js
         ,'ignore_columns': ['no'] # This is just an id, it's unique for each row and thus useless for training, at most it will cause the model to learn something wrong, so we should ignoe it (note: Mindsdb has a built-in functionality for figuring out if a column is an id and ignoring it, but it's not perfect, it's always better to specify this manually)
         ,'use_gpu': True # Specify a different argument here if you don't have a pytroch-compatible GPU (graphics card), Mindsdb should be pretty good at auto-detecting this, but not always.
         ,'sample_margin_of_error': 0.01 # Use only a small sample when analyzing the dataset, this should make the whole process go by faster (Note, the value of this argument is not proportional to the % of the data analyzed, rather to the assumed margin of error during analysis, so the bigger it is, the less data is sampled. Ideally it should always be bellow 0.1, even if you're in a terrible hurry)
-        ,'disable_optional_analysis': False # Diable some optional analysis of the model for training to go faster, defaults to `False` and we strongly recommend keeping it that way
         ,'stop_training_in_x_seconds': 1800 # We don't want training to take forever, we'll stop after a maximum of 30 minutes, though this *might* hurt accuracy (note, this is not exact but rather a guideline, it might take up to e.g 36 minutes for the training of the model to finish)
 
     }})

@@ -9,8 +9,7 @@ def run():
 
     mdb = mindsdb.Predictor(name='hotel_booking')
 
-    mdb.learn(from_data='processed_data/train.csv', to_predict='is_canceled', backend=backend,
-              disable_optional_analysis=True)
+    mdb.learn(from_data='processed_data/train.csv', to_predict='is_canceled', backend=backend)
 
     test_df = pd.read_csv('processed_data/test.csv')
     predictions = mdb.predict(when_data='processed_data/test.csv',

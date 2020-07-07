@@ -8,12 +8,12 @@ def run():
 
     backend = 'lightwood'
 
-    mdb.learn(from_data='dataset/train_data.csv', to_predict='value', order_by=['timestamp'], backend=backend, window_size=10)
+    mdb.learn(from_data=pd.read_csv('dataset/train_data.csv').iloc[0:300], to_predict='value', order_by=['timestamp'], backend=backend, window_size=5)
 
-    predictions = mdb.predict(when='dataset/test_data.csv')
+    predictions = mdb.predict(when=pd.read_csv('dataset/test_data.csv').iloc[0:300])
 
     pred_val = [x['sales'] for x in predictions]
-    real_val = list(pd.read_csv(open('dataset/test_data.csv', 'r'))['value'])
+    real_val = list(pd.read_csv('dataset/test_data.csv').iloc[0:300]['value'])
 
     accuracy = r2_score(real_val, pred_val)
     print(f'Got an r2 score of: {accuracy}')

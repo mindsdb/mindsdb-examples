@@ -16,7 +16,7 @@ def run(sample):
 
     predictor = mindsdb.Predictor(name='CIFRAR_Model') #cifrara_100_resnext_50_reduced
 
-    predictor.learn(from_data=train_df, to_predict=['class'], disable_optional_analysis=True, use_gpu=True, backend=backend, stop_training_in_x_seconds=round((3600 * 2)))
+    predictor.learn(from_data=train_df, to_predict=['class'], use_gpu=True, backend=backend, stop_training_in_x_seconds=round((3600 * 2)))
 
     predictions = predictor.predict(when_data=test_df, unstable_parameters_dict={'always_use_model_prediction': True},use_gpu=False)
 

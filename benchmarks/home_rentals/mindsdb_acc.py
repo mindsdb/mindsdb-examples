@@ -35,16 +35,16 @@ def run(sample=False):
     mdb = mindsdb.Predictor(name='home_rentals')
 
     # We tell the Predictor what column or key we want to learn and from what data
-    print(111)
+    #mdb.breakpoint = 'DataAnalyzer'
 
     train_df = pd.read_csv('dataset/train.csv')
     #train_df = train_df.drop(columns=['initial_price'])
-
     #'''
     mdb.learn(
         from_data=train_df, # the path to the file where we can learn from, (note: can be url)
         to_predict='rental_price' # the column we want to learn to predict given all the data in the file
-    	,stop_training_in_x_seconds=1000
+    	,stop_training_in_x_seconds=120
+    	,use_gpu=False
     )
     #'''
 
@@ -54,7 +54,7 @@ def run(sample=False):
         print(f'Predicting without columns: {drop_cols}')
         predictions = mdb.predict(when_data=test_df.drop(columns=drop_cols))
 
-        pred_val = [x.explain()['rental_price'][0]['model_result']['value'] for x in predictions]
+        pred_val = [x.explain()['rental_price']['predicted_value'] for x in predictions]
         real_val = list(pd.read_csv(open('dataset/test.csv', 'r'))['rental_price'])
         real_val = [x if str(x) != 'nan' else 0 for x in real_val]
 
@@ -67,8 +67,6 @@ def run(sample=False):
         accuracy = pct_error(real_val, pred_val)
         print(f'Got a percentage accuracy score of: {accuracy}')
         print('\n\n------------------------\n\n')
-
-    print([(x['importance_score'],x['column_name']) for x in mdb.get_model_data()['data_analysis']['input_columns_metadata']])
 
     return {
         'accuracy': accuracy
