@@ -5,10 +5,9 @@ import numpy as np
 
 test_prefix = 'test'
 run_learn = True
-drop_cols = ['initial_price', 'location']
 
 backend='lightwood'
-lightwood.config.config.CONFIG.HELPER_MIXERS = False
+#lightwood.config.config.CONFIG.HELPER_MIXERS = False
 # Instantiate a mindsdb Predictor
 mdb = mindsdb.Predictor(name='home_rentals')
 
