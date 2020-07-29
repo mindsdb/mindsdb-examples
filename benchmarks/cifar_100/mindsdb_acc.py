@@ -14,11 +14,13 @@ def run(sample):
 
     backend='lightwood'
 
-    predictor = mindsdb.Predictor(name='CIFRAR_Model') #cifrara_100_resnext_50_reduced
+    predictor = mindsdb.Predictor(name='CIFRAR_Model')
 
-    predictor.learn(from_data=train_df, to_predict=['class'], use_gpu=True, backend=backend, stop_training_in_x_seconds=round((3600 * 2)))
+    predictor.learn(from_data=train_df, to_predict=['class'], ignore_columns='index', advanced_args={'use_selfaware_model': False,'force_disable_cache': False})
 
-    predictions = predictor.predict(when_data=test_df, unstable_parameters_dict={'always_use_model_prediction': True},use_gpu=False)
+    #
+
+    predictions = predictor.predict(when_data=test_df)
 
     predicted_class = list(map(lambda x: x['class'], predictions))
     real_class = list(test_df['class'])

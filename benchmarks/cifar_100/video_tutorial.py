@@ -11,7 +11,7 @@ test_file = 'test_sample.csv'
 predictor = mindsdb.Predictor(name='cifrar_100_predictor')
 
 # Train it
-predictor.learn(from_data=pd.read_csv(train_file).iloc[0:50], to_predict=['class'], ignore_columns=['superclass'])
+predictor.learn(from_data=pd.read_csv(train_file).iloc[0:50], to_predict=['class']) #, ignore_columns=['superclass']
 
 # Predict the class for each image on the testing set
 predictions = predictor.predict(when_data=pd.read_csv(test_file).iloc[0:5])
