@@ -1,0 +1,500 @@
+age,gender,security_no,region_category,membership_category,joining_date,joined_through_referral,referral_id,preferred_offer_types,medium_of_operation,internet_option,last_visit_time,days_since_last_login,avg_time_spent,avg_transaction_value,avg_frequency_login_days,points_in_wallet,used_special_discount,offer_application_preference,past_complaint,complaint_status,feedback,churn_risk_score
+18,F,XW0DQ7H,Village,Platinum Membership,17-08-2017,No,xxxxxxxx,Gift Vouchers/Coupons,?,Wi-Fi,16:08:02,17,300.63,53005.25,17,781.75,Yes,Yes,No,Not Applicable,Products always in Stock,0
+32,F,5K0N3X1,City,Premium Membership,28-08-2017,?,CID21329,Gift Vouchers/Coupons,Desktop,Mobile_Data,12:38:13,16,306.34,12838.38,10,,Yes,No,Yes,Solved,Quality Customer Care,0
+44,F,1F2TCL3,Town,No Membership,11-11-2016,Yes,CID12313,Gift Vouchers/Coupons,Desktop,Wi-Fi,22:53:21,14,516.16,21027,22,500.69,No,Yes,Yes,Solved in Follow-up,Poor Website,1
+37,M,VJGJ33N,City,No Membership,29-10-2016,Yes,CID3793,Gift Vouchers/Coupons,Desktop,Mobile_Data,15:57:50,11,53.27,25239.56,6,567.66,No,Yes,Yes,Unsolved,Poor Website,1
+31,F,SVZXCWB,City,No Membership,12-09-2017,No,xxxxxxxx,Credit/Debit Card Offers,Smartphone,Mobile_Data,15:46:44,20,113.13,24483.66,16,663.06,No,Yes,Yes,Solved,Poor Website,1
+13,M,PSG1LGF,City,Gold Membership,08-01-2016,No,xxxxxxxx,Gift Vouchers/Coupons,?,Wi-Fi,6:46:07,23,433.62,13884.77,24,722.27,Yes,No,Yes,Unsolved,No reason specified,0
+21,M,R3CX1EA,Town,Gold Membership,19-03-2015,Yes,CID24708,Gift Vouchers/Coupons,Desktop,Mobile_Data,11:40:04,10,55.38,8982.5,28,756.21,Yes,No,Yes,Solved in Follow-up,No reason specified,0
+42,M,4UJ1551,,No Membership,12-07-2016,?,CID56614,Credit/Debit Card Offers,Both,Fiber_Optic,7:52:43,19,429.11,44554.82,24,568.08,No,Yes,Yes,Unsolved,Poor Product Quality,1
+44,M,0481QNQ,Village,Silver Membership,14-12-2016,No,xxxxxxxx,Without Offers,Smartphone,Fiber_Optic,6:50:10,15,191.07,18362.31,20,,Yes,No,Yes,Solved in Follow-up,Poor Customer Service,0
+45,F,ZHP4MCR,Town,No Membership,30-11-2016,No,xxxxxxxx,Gift Vouchers/Coupons,?,Wi-Fi,19:10:16,10,97.31,19244.16,28,706.23,No,Yes,Yes,No Information Available,Poor Customer Service,1
+25,F,OKZ6GDD,Village,Basic Membership,22-05-2016,Yes,CID19275,Gift Vouchers/Coupons,Both,Wi-Fi,5:57:20,14,570.23,35119.93,8,699.7,Yes,Yes,No,Not Applicable,Poor Product Quality,1
+60,M,KPI9DD5,City,Gold Membership,13-01-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Wi-Fi,11:56:11,14,55.53,41672.02,33.02434314,798.12,Yes,No,No,Not Applicable,Too many ads,0
+11,M,G2FTZTL,Town,No Membership,31-01-2015,No,xxxxxxxx,Credit/Debit Card Offers,Smartphone,Fiber_Optic,4:42:50,13,41.09,44007.18,18,608.26,Yes,No,Yes,Unsolved,Poor Customer Service,1
+34,M,S71G75R,City,Basic Membership,07-12-2016,Yes,CID10856,Gift Vouchers/Coupons,Smartphone,Fiber_Optic,8:35:05,10,89.76,21318.19,6,,No,Yes,No,Not Applicable,Poor Product Quality,1
+40,M,QAL9ZY2,City,Premium Membership,19-11-2016,No,xxxxxxxx,Without Offers,?,Fiber_Optic,21:01:43,20,100.59,14842.62,26,,No,Yes,No,Not Applicable,Poor Website,0
+16,F,YTBUOEE,Town,Basic Membership,09-07-2017,?,CID35062,Credit/Debit Card Offers,Smartphone,Fiber_Optic,13:48:22,-999,30.14,18792.31,7,141.5132013,Yes,No,Yes,Unsolved,Too many ads,1
+57,F,RZ6TPTR,City,No Membership,27-01-2016,No,xxxxxxxx,Without Offers,?,Wi-Fi,20:58:28,5,333.34,47241.32,8,,Yes,Yes,Yes,Solved in Follow-up,Too many ads,1
+11,M,3GHN9RC,Town,Silver Membership,02-01-2017,Yes,CID22930,Gift Vouchers/Coupons,?,Wi-Fi,3:42:26,12,275.13,29072.86,26,733.97,Yes,No,No,Not Applicable,Poor Customer Service,0
+39,M,DYK6E24,Town,No Membership,01-11-2017,No,xxxxxxxx,Credit/Debit Card Offers,Smartphone,Fiber_Optic,15:39:05,9,241.74,33170.16,6,551.11,Yes,No,Yes,No Information Available,No reason specified,1
+45,M,XYB1CDG,City,Premium Membership,03-02-2016,No,xxxxxxxx,Without Offers,?,Mobile_Data,11:46:54,14,31.15,66982.61,8,164.800769,Yes,No,Yes,Unsolved,Products always in Stock,0
+33,M,7L21LW8,Village,No Membership,03-12-2015,No,xxxxxxxx,Without Offers,Desktop,Wi-Fi,18:50:35,15,49.86,44289.97,25,703.96,Yes,No,No,Not Applicable,Poor Customer Service,1
+30,M,B6OEP7V,Village,No Membership,29-07-2016,Yes,CID53809,Gift Vouchers/Coupons,Smartphone,Mobile_Data,8:55:48,21,30.37,49404.86,23,630.61,Yes,No,Yes,No Information Available,Poor Website,1
+19,F,6EV1QAQ,Town,Platinum Membership,22-01-2017,No,xxxxxxxx,Gift Vouchers/Coupons,?,Mobile_Data,23:04:40,15,483.03,52702.67,3,389.3564432,No,Yes,Yes,No Information Available,User Friendly Website,0
+48,M,GX2SOJ5,Town,Basic Membership,10-11-2017,Yes,xxxxxxxx,Without Offers,Smartphone,Fiber_Optic,19:10:29,12,72.52,15860.41,3.207385793,529.03,No,Yes,No,Not Applicable,No reason specified,0
+43,M,X0YDRG9,City,No Membership,14-08-2015,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Fiber_Optic,6:23:02,17,108.3,21725.57,21,225.0044276,No,Yes,No,Not Applicable,Poor Website,1
+29,F,5SWULVO,Town,Silver Membership,09-04-2016,No,xxxxxxxx,Without Offers,Desktop,Fiber_Optic,20:56:20,18,300.38,12069.06,7,777.31,No,Yes,No,Not Applicable,Too many ads,0
+10,M,3I9LEFE,City,Gold Membership,10-11-2015,Yes,CID60798,Credit/Debit Card Offers,?,Wi-Fi,17:25:38,1,100.65,8515.5,6,757.7,Yes,No,No,Not Applicable,No reason specified,0
+20,F,UOAPI3L,Village,No Membership,08-12-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Wi-Fi,18:29:25,22,272.31,42743.44,12,687.26,Yes,No,No,Not Applicable,Poor Product Quality,1
+61,F,QUU2V55,Village,Silver Membership,14-05-2017,?,CID29752,Gift Vouchers/Coupons,?,Fiber_Optic,7:48:25,17,-936.7448179,29156.1,10,710.38,Yes,No,Yes,No Information Available,No reason specified,1
+10,M,96ZHX6P,Town,Gold Membership,12-01-2016,No,xxxxxxxx,Credit/Debit Card Offers,?,Wi-Fi,10:16:14,4,127.37,15719.24,10,634.88,Yes,No,Yes,Unsolved,Poor Website,1
+17,F,KX657II,City,No Membership,25-11-2015,?,CID40054,Without Offers,Desktop,Fiber_Optic,21:06:46,20,162.93,31100.95,11,633.05,No,Yes,Yes,Solved,Too many ads,1
+60,M,PBUM281,Town,No Membership,02-11-2016,Yes,CID12220,Without Offers,Desktop,Fiber_Optic,20:03:13,18,498.09,48125.94,27,,No,Yes,No,Not Applicable,Poor Product Quality,1
+11,F,ZYEBIID,,Gold Membership,28-07-2016,Yes,CID26584,Without Offers,Desktop,Wi-Fi,9:36:43,10,185.53,60143.68,4,836.08,Yes,No,Yes,Solved in Follow-up,User Friendly Website,0
+60,M,EUGPHWZ,City,Gold Membership,02-07-2017,Yes,CID45046,Gift Vouchers/Coupons,Both,Fiber_Optic,2:31:33,11,537.25,1773.49,6,711.76,Yes,Yes,No,Not Applicable,Poor Product Quality,0
+12,M,ZQJOXJX,City,Premium Membership,02-03-2015,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Wi-Fi,21:45:25,8,198.26,26105.24,7,721.36,Yes,No,No,Not Applicable,Poor Customer Service,0
+52,M,C229QZZ,Town,Silver Membership,08-10-2015,No,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Wi-Fi,23:17:22,9,119.47,10101.48,28,158.5477645,Yes,No,No,Not Applicable,Poor Website,1
+30,M,U49RAKX,City,Basic Membership,13-10-2016,Yes,CID37735,Gift Vouchers/Coupons,Smartphone,Mobile_Data,22:46:55,15,68.19,21111.9,23,574.01,Yes,Yes,Yes,Solved in Follow-up,Poor Customer Service,1
+26,M,06HDP63,,No Membership,29-11-2017,Yes,CID39260,Without Offers,Desktop,Wi-Fi,14:55:59,3,215.89,41979.65,9,,No,Yes,No,Not Applicable,Too many ads,1
+26,F,FRAOIDA,Town,No Membership,01-07-2017,Yes,CID26444,Without Offers,Desktop,Wi-Fi,4:16:41,20,194.85,5912.06,13,568.34,Yes,No,No,Not Applicable,Too many ads,1
+49,F,M9F3TE2,Village,Platinum Membership,09-06-2017,Yes,CID18445,Credit/Debit Card Offers,Both,Fiber_Optic,23:11:17,8,706.36,19062.25,Error,780.58,Yes,No,No,Not Applicable,Poor Product Quality,0
+24,M,FRLCXCJ,City,Premium Membership,10-10-2016,?,CID53825,Without Offers,Desktop,Fiber_Optic,21:06:08,15,210.44,35531.98,25,745.49,Yes,No,No,Not Applicable,Poor Product Quality,0
+22,M,YNN4REK,Town,No Membership,02-06-2017,Yes,CID48405,Without Offers,?,Wi-Fi,0:22:50,4,-930.2078443,8415.63,17,650.44,No,Yes,Yes,Solved in Follow-up,Too many ads,1
+33,F,DE6ERGA,Town,Premium Membership,02-02-2017,?,CID44139,Credit/Debit Card Offers,Desktop,Wi-Fi,5:06:03,12,394.26,34697.85,19,752.3,Yes,No,Yes,No Information Available,Poor Website,0
+17,M,EJMEVHN,City,Platinum Membership,20-12-2015,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Wi-Fi,1:51:39,6,348.07,94100.72,4,824.95,Yes,Yes,No,Not Applicable,User Friendly Website,0
+36,M,C7QZITU,Village,Silver Membership,28-11-2016,Yes,CID33962,Gift Vouchers/Coupons,?,Mobile_Data,6:06:05,2,691.09,17989.46,Error,,No,Yes,Yes,Solved,No reason specified,1
+12,M,B1XF70C,City,Premium Membership,13-02-2017,No,xxxxxxxx,Without Offers,Desktop,Mobile_Data,22:27:40,8,33.09,55607.35,Error,,Yes,No,No,Not Applicable,User Friendly Website,0
+58,F,FBG1O5D,Village,Gold Membership,09-11-2017,No,xxxxxxxx,Without Offers,Smartphone,Mobile_Data,21:21:14,11,30.78,48080.03,10,713.62,Yes,No,No,Not Applicable,Poor Product Quality,0
+41,M,ZQ2RGSW,Town,Platinum Membership,20-11-2016,No,xxxxxxxx,Without Offers,Both,Fiber_Optic,23:21:15,13,282.87,27528.03,27,743.8,Yes,No,No,Not Applicable,Poor Website,0
+30,M,TER02YR,City,Platinum Membership,11-12-2015,?,CID4129,Gift Vouchers/Coupons,Smartphone,Wi-Fi,14:13:01,20,100.42,86433.91,Error,719.93,No,Yes,Yes,Unsolved,Reasonable Price,0
+50,M,HXIGRU3,City,Premium Membership,25-10-2015,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Wi-Fi,3:10:02,18,154.7,24197.4,29,,No,Yes,Yes,Solved,Too many ads,0
+23,M,UAAYTIM,Village,Gold Membership,22-10-2015,Yes,CID24995,Without Offers,?,Wi-Fi,14:01:02,10,65.25,5136.08,Error,755.22,No,Yes,No,Not Applicable,Poor Customer Service,0
+38,M,B2MID6G,Town,Gold Membership,15-10-2017,No,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Mobile_Data,12:05:44,8,324.75,28535.13,27,770.31,Yes,Yes,Yes,Solved,Poor Customer Service,0
+20,M,PC7X217,City,Silver Membership,27-01-2015,Yes,CID23945,Without Offers,Desktop,Fiber_Optic,4:11:19,16,237.39,25000.09,16,704.4,No,Yes,No,Not Applicable,Poor Website,1
+35,F,EER61FP,Village,Gold Membership,30-10-2016,No,xxxxxxxx,Credit/Debit Card Offers,Smartphone,Fiber_Optic,5:36:03,20,148.24,30984.56,11,729.04,Yes,No,No,Not Applicable,Poor Customer Service,0
+43,M,KJLXRJ7,Town,Premium Membership,26-04-2017,Yes,xxxxxxxx,Without Offers,Both,Wi-Fi,3:32:50,16,773.83,9091.94,20,700.4,No,Yes,No,Not Applicable,Poor Product Quality,0
+32,M,C0LKXD6,City,Silver Membership,24-07-2017,Yes,CID30236,Without Offers,?,Fiber_Optic,2:35:02,13,117.68,19822.82,43.3600415,,Yes,No,No,Not Applicable,Too many ads,0
+40,F,KA10KAJ,Town,Platinum Membership,22-08-2015,?,CID4999,Gift Vouchers/Coupons,Smartphone,Fiber_Optic,11:27:38,18,251.06,63416.63,12,1087.184702,No,Yes,Yes,Solved in Follow-up,Products always in Stock,0
+40,F,1C5WWL9,Town,Silver Membership,21-08-2017,Yes,CID15992,Credit/Debit Card Offers,Smartphone,Wi-Fi,2:12:51,-999,46.57,24045.93,8,709.73,No,Yes,No,Not Applicable,Poor Product Quality,0
+48,F,LLPKTT3,Town,No Membership,17-03-2017,?,CID56231,Credit/Debit Card Offers,Smartphone,Wi-Fi,8:24:51,12,539.49,49270.76,12,503.95,Yes,No,No,Not Applicable,Too many ads,1
+35,M,MVC3XG0,Town,Premium Membership,11-05-2015,No,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Mobile_Data,9:20:14,12,34.48,48679.07,6,779.59,Yes,No,No,Not Applicable,Poor Product Quality,0
+28,M,X54XOQB,Village,Gold Membership,17-05-2017,Yes,CID11661,Gift Vouchers/Coupons,Smartphone,Fiber_Optic,9:42:14,9,-615.344319,13131.05,13,820.91,Yes,Yes,No,Not Applicable,Quality Customer Care,0
+44,F,YN0D4XB,,No Membership,23-08-2016,Yes,CID35687,Without Offers,Both,Wi-Fi,22:22:17,13,283.49,7603.71,Error,553.45,Yes,Yes,Yes,Unsolved,No reason specified,1
+40,M,EY34UCV,Town,Premium Membership,31-01-2017,?,CID15184,Gift Vouchers/Coupons,Desktop,Fiber_Optic,14:31:59,3,33.82,39735.58,25,784.32,Yes,No,Yes,No Information Available,Too many ads,0
+18,F,WGKRXHK,City,Basic Membership,17-06-2016,Yes,CID29938,Credit/Debit Card Offers,Smartphone,Mobile_Data,21:33:45,20,156.06,4783.23,28.75639925,597.87,Yes,No,Yes,No Information Available,Too many ads,0
+10,M,PXDXAK3,,Basic Membership,08-06-2015,No,xxxxxxxx,Credit/Debit Card Offers,Smartphone,Fiber_Optic,11:07:18,12,31.67,25436.23,Error,656.67,No,Yes,No,Not Applicable,Poor Website,1
+35,M,U2S0ZMS,Town,No Membership,27-11-2017,Yes,CID23426,Without Offers,Smartphone,Mobile_Data,22:34:23,4,157.03,22975.33,18,548.1,No,Yes,No,Not Applicable,Poor Website,1
+43,M,11SAVWA,Town,No Membership,06-04-2015,No,xxxxxxxx,Credit/Debit Card Offers,?,Mobile_Data,13:41:04,11,227.23,29602.15,24,663.63,No,Yes,Yes,Unsolved,Poor Product Quality,1
+28,M,DL6BE96,Village,Basic Membership,29-10-2017,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Mobile_Data,12:46:58,4,457.33,20883.28,14,-549.3574977,No,Yes,No,Not Applicable,Too many ads,1
+53,M,UZELBS2,Town,Platinum Membership,27-01-2017,No,xxxxxxxx,Without Offers,?,Fiber_Optic,12:50:50,6,228.02,46353.54,19,302.0058985,Yes,No,Yes,No Information Available,No reason specified,0
+55,F,BTESGNH,Town,Premium Membership,03-09-2017,No,xxxxxxxx,Credit/Debit Card Offers,Smartphone,Mobile_Data,22:22:34,18,42.77,8996.95,Error,749.56,Yes,No,Yes,Unsolved,Poor Website,0
+59,F,A3SG5HG,Town,No Membership,08-06-2017,Yes,CID8099,Gift Vouchers/Coupons,Desktop,Fiber_Optic,10:53:03,-999,207.52,12556.28,10,-44.59763258,No,Yes,No,Not Applicable,No reason specified,1
+39,M,BFC2STE,City,No Membership,01-12-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Mobile_Data,4:04:47,13,98.57,2645.63,23,674.42,No,Yes,No,Not Applicable,Poor Product Quality,1
+11,M,K9534WF,City,Gold Membership,22-06-2016,No,xxxxxxxx,Credit/Debit Card Offers,?,Wi-Fi,1:42:15,23,176.31,8983.02,25,707.46,No,Yes,Yes,Solved,Poor Product Quality,1
+37,M,VORACOL,Village,No Membership,17-05-2016,?,CID13799,Without Offers,Both,Mobile_Data,3:29:16,17,687.16,29101.96,18,713.82,Yes,Yes,No,Not Applicable,Poor Customer Service,1
+53,M,G64J9NC,City,No Membership,06-04-2017,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Wi-Fi,6:24:30,-999,253.96,19233.1,25,1032.199126,Yes,No,Yes,Solved,Poor Website,1
+57,M,7JC7H9M,Town,No Membership,02-01-2016,No,xxxxxxxx,Without Offers,Desktop,Fiber_Optic,3:26:00,13,119.1,44341.82,Error,563.92,Yes,No,Yes,No Information Available,Poor Customer Service,1
+47,M,YIF4UTM,Town,Silver Membership,22-07-2015,?,CID5998,Without Offers,?,Wi-Fi,17:26:06,10,131.86,26399.43,17,757.01,No,Yes,Yes,Solved in Follow-up,Poor Customer Service,0
+50,M,148CAFB,Town,Gold Membership,21-01-2015,Yes,CID60579,Credit/Debit Card Offers,Desktop,Wi-Fi,18:29:15,19,65.39,17054.69,21,353.3690015,No,Yes,Yes,Solved,No reason specified,0
+49,F,IJ500YB,City,Silver Membership,25-08-2016,Yes,CID31774,Gift Vouchers/Coupons,?,Wi-Fi,10:39:05,3,74.9,41612.23,28,1196.569315,No,Yes,Yes,Solved in Follow-up,No reason specified,1
+54,M,XR0FV22,Town,Silver Membership,21-06-2017,?,CID58493,Credit/Debit Card Offers,Smartphone,Mobile_Data,4:30:27,20,-687.629574,42060.89,24,684.69,Yes,No,Yes,No Information Available,Poor Website,1
+30,M,U545PNM,Village,Gold Membership,17-09-2016,No,xxxxxxxx,Without Offers,Desktop,Fiber_Optic,10:45:58,9,97.74,32347.7,27,,No,Yes,No,Not Applicable,Poor Customer Service,0
+25,F,RAVGVDP,City,Silver Membership,20-08-2015,?,xxxxxxxx,Without Offers,?,Mobile_Data,4:45:26,13,135.21,3561.26,17,,Yes,No,Yes,Solved,Too many ads,0
+53,F,VDCZUD5,City,Premium Membership,02-04-2015,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Wi-Fi,21:35:56,18,172.99,9044.15,8,763.14,Yes,No,Yes,Solved in Follow-up,Products always in Stock,0
+54,M,KUJNEI7,,Basic Membership,07-08-2015,Yes,xxxxxxxx,Credit/Debit Card Offers,Smartphone,Fiber_Optic,19:26:54,13,254.72,11345.66,7,572.41,No,Yes,Yes,Solved in Follow-up,Poor Product Quality,1
+62,F,UHDKJ4T,City,No Membership,13-10-2016,No,xxxxxxxx,Without Offers,Both,Fiber_Optic,7:55:41,5,304.52,47658.52,29,699.19,No,Yes,Yes,Solved,Too many ads,1
+55,M,E1EYCEB,City,Platinum Membership,14-04-2015,Yes,CID47303,Credit/Debit Card Offers,Both,Mobile_Data,22:44:04,1,1316.52,2367.56,25,441.8365499,Yes,No,No,Not Applicable,No reason specified,0
+30,F,D489TNE,,No Membership,13-11-2017,?,CID44952,Credit/Debit Card Offers,Desktop,Wi-Fi,8:37:37,13,264.54,40756.7,26,628.31,Yes,No,No,Not Applicable,Too many ads,1
+30,M,26RJY6I,City,Silver Membership,03-06-2017,No,xxxxxxxx,Credit/Debit Card Offers,Smartphone,Fiber_Optic,2:48:44,12,191.41,25575.44,Error,648.68,No,Yes,Yes,Solved in Follow-up,Poor Customer Service,1
+51,M,0LS5PB4,Town,Premium Membership,10-12-2015,Yes,CID27690,Without Offers,Desktop,Wi-Fi,10:11:22,13,135.09,48819.9,8,,Yes,No,Yes,Solved in Follow-up,Poor Customer Service,0
+29,M,FKA8V9P,Village,Silver Membership,07-11-2017,Yes,CID13740,Gift Vouchers/Coupons,Smartphone,Fiber_Optic,5:44:02,12,123.37,13032.52,6,,Yes,No,No,Not Applicable,No reason specified,1
+16,M,S6B5HER,City,Silver Membership,06-11-2017,?,CID62149,Gift Vouchers/Coupons,Desktop,Fiber_Optic,6:48:52,9,355.31,20457.22,5,1233.769727,Yes,Yes,Yes,Solved in Follow-up,Poor Product Quality,0
+25,F,IHGGCOB,Village,Gold Membership,18-05-2017,Yes,CID4642,Without Offers,Smartphone,Mobile_Data,15:00:18,11,31.88,35414.54,20,788.67,No,Yes,No,Not Applicable,No reason specified,0
+62,F,8EC483J,City,Basic Membership,06-07-2017,No,xxxxxxxx,Credit/Debit Card Offers,Smartphone,Wi-Fi,10:16:47,14,125,38802.24,28,,No,Yes,Yes,Unsolved,No reason specified,1
+24,F,7VI8S2N,Town,Premium Membership,29-08-2017,Yes,CID40499,Without Offers,Desktop,Fiber_Optic,20:42:49,5,181.34,43554.96,1,728.69,Yes,No,Yes,Solved in Follow-up,Products always in Stock,0
+48,M,0FXRTQ3,City,No Membership,27-03-2015,Yes,CID29095,,Desktop,Mobile_Data,18:59:30,8,960.62,13954.02,17,631.15,No,Yes,Yes,Solved,Poor Customer Service,1
+56,M,CFXGFEO,Village,Basic Membership,22-08-2017,Yes,CID11447,Credit/Debit Card Offers,Desktop,Wi-Fi,18:27:08,24,48.59,28071.04,16,533.05,No,Yes,Yes,Solved,Poor Website,1
+17,M,Y2PJ70L,,Basic Membership,28-12-2016,Yes,CID52970,Credit/Debit Card Offers,Desktop,Wi-Fi,13:52:30,12,30.12,15027.14,12,,No,Yes,No,Not Applicable,No reason specified,1
+23,F,JAWMYHN,Town,Gold Membership,04-08-2016,Yes,CID3210,Without Offers,Desktop,Wi-Fi,10:53:56,21,727.69,4919.72,13,758.83,Yes,Yes,No,Not Applicable,Too many ads,0
+42,F,V8LT71V,City,No Membership,23-06-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Both,Fiber_Optic,12:35:00,3,419.51,14661.42,Error,404.4897584,No,Yes,Yes,Solved in Follow-up,No reason specified,1
+59,M,OOEQJ9E,Village,Gold Membership,01-09-2015,Yes,CID45337,Without Offers,Both,Mobile_Data,0:41:03,8,899.04,49614.88,23,758.69,Yes,No,No,Not Applicable,Poor Website,0
+18,M,WXJCO6L,Town,Basic Membership,22-12-2015,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Mobile_Data,5:19:35,11,293.42,2521.3,Error,964.8409708,Yes,No,Yes,No Information Available,Poor Customer Service,1
+23,M,XDANU0N,City,Gold Membership,21-06-2015,Yes,CID44094,Credit/Debit Card Offers,Desktop,Wi-Fi,7:05:14,10,934.3542198,11955.94,24,630.8,No,Yes,Yes,Unsolved,Poor Customer Service,1
+52,F,0B93V8I,City,Basic Membership,13-11-2017,Yes,CID60201,Credit/Debit Card Offers,Smartphone,Mobile_Data,20:27:36,4,826.51,14877.24,25,522.61,Yes,No,No,Not Applicable,Poor Customer Service,1
+49,F,80X3LBS,Town,Premium Membership,02-09-2016,Yes,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Mobile_Data,16:09:53,21,115.41,41156.81,27,741.02,No,Yes,No,Not Applicable,Poor Customer Service,0
+30,M,WX9FMKD,,Premium Membership,14-05-2017,No,xxxxxxxx,Gift Vouchers/Coupons,?,Wi-Fi,1:07:51,7,481.45,4207.45,28,776.36,Yes,Yes,No,Not Applicable,Poor Customer Service,0
+31,F,FXTLHJO,Town,Basic Membership,18-08-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Mobile_Data,10:40:33,14,148.95,2364.45,Error,634.51,No,Yes,No,Not Applicable,Too many ads,1
+27,M,1Q644S2,City,Silver Membership,23-10-2016,No,xxxxxxxx,Credit/Debit Card Offers,Smartphone,Mobile_Data,19:13:01,21,357.45,29825.45,9,665.63,No,Yes,Yes,Solved,Poor Website,1
+56,M,DEN5T45,City,Gold Membership,24-04-2016,No,xxxxxxxx,Without Offers,Desktop,Fiber_Optic,2:55:41,21,1386.232857,9454.17,19,778.27,Yes,No,No,Not Applicable,Too many ads,0
+11,M,HO7SVW2,,Silver Membership,24-08-2016,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Fiber_Optic,10:45:18,15,96.14,11995.93,19,207.169769,Yes,No,No,Not Applicable,Poor Customer Service,1
+31,F,8AWVLE2,Town,Silver Membership,13-04-2017,No,xxxxxxxx,Credit/Debit Card Offers,Both,Wi-Fi,18:41:44,10,428.05,6325.08,28,80.09369313,No,Yes,No,Not Applicable,Poor Product Quality,1
+29,M,VLT3N4A,Town,Premium Membership,07-05-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Wi-Fi,10:59:38,14,42.48,16098.94,21,766.85,Yes,No,Yes,Solved,Poor Website,0
+31,F,W20NHNO,City,Silver Membership,20-04-2016,Yes,CID42557,Without Offers,Smartphone,Wi-Fi,10:24:44,24,33.91,23226.43,7,762.48,No,Yes,Yes,Solved,Poor Customer Service,0
+11,F,PB5J0JP,Town,Basic Membership,10-03-2015,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Mobile_Data,12:23:20,8,1060.527979,10990.31,16,271.7143813,Yes,No,No,Not Applicable,Poor Product Quality,1
+14,M,0ISW03K,Town,Basic Membership,19-07-2017,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Mobile_Data,15:34:53,-999,1156.431904,32302.27,24,520.33,No,Yes,No,Not Applicable,Poor Customer Service,1
+26,M,ELWT1XG,City,Silver Membership,14-11-2017,Yes,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Mobile_Data,9:43:15,7,187.91,17002.23,11,700.11,No,Yes,No,Not Applicable,Too many ads,0
+62,M,TS6F948,,Premium Membership,09-01-2016,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Mobile_Data,4:35:00,10,284.09,48305.86,Error,730.05,No,Yes,No,Not Applicable,Poor Website,0
+51,M,LOSAGM2,Village,Platinum Membership,22-09-2017,No,xxxxxxxx,Without Offers,Desktop,Fiber_Optic,16:51:53,3,-494.0838771,40667.27,19,809.83,Yes,No,No,Not Applicable,Reasonable Price,0
+43,F,DTMKCNR,Village,Silver Membership,12-12-2016,Yes,CID9864,Credit/Debit Card Offers,Smartphone,Fiber_Optic,20:43:54,20,-771.4156089,16186.76,8,633.22,Yes,No,No,Not Applicable,Poor Customer Service,1
+23,M,ZS5JITE,Town,Gold Membership,17-03-2016,?,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Fiber_Optic,12:10:42,12,109.76,46102.66,8,783.03,Yes,No,No,Not Applicable,Poor Product Quality,0
+57,M,CZKAGUY,Town,Gold Membership,30-08-2015,Yes,CID11739,Gift Vouchers/Coupons,Desktop,Wi-Fi,12:52:22,-999,56.63,10171.97,23,757.61,Yes,No,Yes,Solved in Follow-up,No reason specified,0
+17,M,F0CC3JK,,Gold Membership,12-11-2015,Yes,CID27651,Gift Vouchers/Coupons,Smartphone,Wi-Fi,22:48:57,21,81.15,46109.6,17,270.467656,Yes,No,No,Not Applicable,No reason specified,1
+42,M,MWN21KT,City,Platinum Membership,08-06-2015,Yes,CID36216,Credit/Debit Card Offers,Smartphone,Wi-Fi,16:48:16,10,1195.732666,31504.62,10,1207.253729,Yes,No,No,Not Applicable,Poor Customer Service,0
+21,F,CUNJTNM,City,Silver Membership,11-03-2016,No,xxxxxxxx,Credit/Debit Card Offers,?,Mobile_Data,8:26:10,7,99.95,22865.42,21,,No,Yes,No,Not Applicable,No reason specified,0
+46,M,0PSMM0P,Village,No Membership,16-03-2017,Yes,CID31973,Credit/Debit Card Offers,Smartphone,Fiber_Optic,21:40:49,21,287.39,44809.68,27,629.6,No,Yes,No,Not Applicable,Poor Product Quality,1
+41,M,P11WJYU,,Silver Membership,25-11-2016,Yes,CID29256,Gift Vouchers/Coupons,Desktop,Fiber_Optic,16:58:58,-999,892.02,36394.44,26,630.98,Yes,Yes,Yes,Unsolved,Poor Website,1
+61,M,YL8KDU2,City,Basic Membership,31-05-2017,?,CID24876,Gift Vouchers/Coupons,Smartphone,Mobile_Data,16:22:43,7,115.29,13019.31,14,164.0703482,Yes,No,Yes,Solved in Follow-up,Poor Product Quality,1
+15,F,JD1FCAD,City,Premium Membership,04-08-2015,?,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Fiber_Optic,8:50:18,5,185.05,43833.54,15,743.57,No,Yes,No,Not Applicable,Poor Product Quality,0
+56,M,CX2RD4O,,Gold Membership,08-07-2016,Yes,CID59245,Credit/Debit Card Offers,Desktop,Mobile_Data,14:23:57,16,30.16,33886.44,5,670.11,No,Yes,No,Not Applicable,Poor Customer Service,1
+35,M,OFQV4L9,City,Gold Membership,26-03-2015,No,xxxxxxxx,Without Offers,Both,Fiber_Optic,23:40:39,17,219.13,70247.76,3,1293.169381,Yes,Yes,No,Not Applicable,User Friendly Website,0
+57,M,J1ERM77,Town,No Membership,13-01-2015,Yes,CID33756,Credit/Debit Card Offers,Smartphone,Wi-Fi,17:11:02,8,400.35,30248.45,9,660.25,No,Yes,Yes,Unsolved,Poor Customer Service,1
+64,M,T8VRII9,Town,No Membership,16-03-2015,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Wi-Fi,20:56:30,20,49.24,39981.97,12,648.6,Yes,No,Yes,Solved,Too many ads,1
+21,M,5B2CFVS,Town,Basic Membership,28-02-2017,Yes,CID47291,Credit/Debit Card Offers,Smartphone,Mobile_Data,11:52:02,16,590.85,21919.13,14,610.24,Yes,No,Yes,Solved,Poor Product Quality,1
+53,F,5MTFUGX,Town,Gold Membership,27-01-2017,No,xxxxxxxx,Credit/Debit Card Offers,Smartphone,Wi-Fi,16:36:42,22,1142.148835,34918.7,6,699.08,Yes,No,Yes,Solved in Follow-up,Poor Website,1
+26,M,R59QOZQ,Village,No Membership,26-06-2017,Yes,CID37189,Credit/Debit Card Offers,Desktop,Mobile_Data,19:47:41,16,138.33,8025.77,29,1016.785713,Yes,No,No,Not Applicable,Poor Customer Service,1
+61,M,B64YF5C,Town,Gold Membership,08-01-2016,Yes,CID22912,Credit/Debit Card Offers,Smartphone,Mobile_Data,23:11:54,7,516.46,45544.33,29,780.96,No,Yes,Yes,Unsolved,Too many ads,0
+30,M,P5QCZFI,Town,No Membership,28-04-2015,No,xxxxxxxx,Without Offers,Desktop,Fiber_Optic,1:15:19,19,211.19,2554.48,10,622.45,Yes,Yes,Yes,Solved,Poor Website,1
+38,M,L087S2R,Town,Gold Membership,13-08-2015,Yes,CID12636,Gift Vouchers/Coupons,Desktop,Fiber_Optic,0:12:11,19,942.84,49037.16,6,,No,Yes,No,Not Applicable,No reason specified,0
+35,F,LO2YYBQ,City,Gold Membership,24-06-2015,No,xxxxxxxx,Without Offers,Smartphone,Fiber_Optic,22:58:40,10,267.45,32922.76,8,701.45,No,Yes,No,Not Applicable,No reason specified,1
+61,F,863177F,,No Membership,17-07-2017,Yes,CID48064,Gift Vouchers/Coupons,Desktop,Wi-Fi,20:14:13,22,34.37,3862.41,10,602.86,No,Yes,No,Not Applicable,Too many ads,1
+53,M,O7ATCTM,City,Gold Membership,05-05-2017,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Mobile_Data,1:28:39,19,213.34,8860.9,6,671.74,Yes,No,Yes,Solved,Poor Website,1
+55,M,ZW66T5M,Town,No Membership,26-11-2017,No,xxxxxxxx,Credit/Debit Card Offers,?,Wi-Fi,5:31:13,23,50.48,8944.54,25,626.96,Yes,No,Yes,Unsolved,Poor Customer Service,1
+23,M,8IEHQ76,City,Basic Membership,30-01-2016,Yes,CID59483,Credit/Debit Card Offers,Smartphone,Wi-Fi,6:40:31,13,1044.243494,26060.01,22,684.88,Yes,No,Yes,Solved,Poor Website,1
+11,M,KYOLWFX,Town,Premium Membership,23-04-2015,Yes,CID26778,Gift Vouchers/Coupons,Both,Mobile_Data,14:01:27,-999,628.79,33199.52,22,777.94,Yes,No,Yes,No Information Available,Poor Customer Service,0
+22,M,6RZ86VW,Town,No Membership,07-10-2017,No,xxxxxxxx,Gift Vouchers/Coupons,?,Mobile_Data,18:14:11,17,56.58,41050.72,15,,Yes,No,Yes,Solved,Poor Website,1
+37,M,DS0I1ZT,Village,Silver Membership,04-02-2015,Yes,CID62069,Gift Vouchers/Coupons,Smartphone,Fiber_Optic,4:23:34,11,172.07,23587.32,28,326.1310709,Yes,No,No,Not Applicable,Poor Website,1
+31,M,7YMU3HJ,,Platinum Membership,15-03-2016,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Wi-Fi,12:35:34,6,44.99,3087.16,8,750.95,Yes,No,No,Not Applicable,No reason specified,0
+20,M,2Y95NFP,City,Platinum Membership,22-12-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Mobile_Data,3:36:18,11,144.33,54420.14,5,,No,Yes,No,Not Applicable,User Friendly Website,0
+53,M,MQXM7MW,City,Premium Membership,02-09-2017,Yes,CID12326,Without Offers,Both,Fiber_Optic,15:00:27,7,787.74,20129.88,12,,Yes,No,Yes,Solved in Follow-up,Quality Customer Care,0
+38,F,HZZ26WT,City,Basic Membership,24-05-2017,?,CID32492,Gift Vouchers/Coupons,?,Fiber_Optic,17:28:17,26,30.49,37139.89,20,627.26,Yes,No,No,Not Applicable,Poor Customer Service,1
+59,F,YOLS46C,City,Basic Membership,31-08-2016,No,xxxxxxxx,Without Offers,Both,Wi-Fi,22:42:13,8,400.21,33996.1,38.47159929,697.6,Yes,Yes,No,Not Applicable,Poor Product Quality,1
+50,F,ZO5BVM3,Town,Gold Membership,26-02-2016,Yes,CID34703,Credit/Debit Card Offers,Smartphone,Fiber_Optic,23:53:44,13,103.36,39610.89,10,653.12,Yes,No,Yes,Solved,Poor Customer Service,1
+64,F,P7KUU1A,City,Silver Membership,30-03-2015,?,CID50206,Credit/Debit Card Offers,Smartphone,Mobile_Data,17:06:32,8,58.15,27995.24,18,,Yes,No,No,Not Applicable,Poor Product Quality,0
+27,F,V73DPK8,Town,Gold Membership,27-03-2017,Yes,CID61603,Credit/Debit Card Offers,Smartphone,Wi-Fi,10:13:02,10,862.2,35895.98,21,,No,Yes,No,Not Applicable,No reason specified,1
+12,F,UBUMA9S,Town,Gold Membership,07-10-2017,?,CID12643,Without Offers,Desktop,Wi-Fi,10:55:48,9,412.22,1313.11,18,733.13,Yes,Yes,No,Not Applicable,Products always in Stock,0
+29,F,4H6GWTF,Village,Premium Membership,04-01-2016,Yes,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Wi-Fi,18:36:07,19,222.69,18297.21,2,774.47,No,Yes,Yes,No Information Available,Products always in Stock,0
+39,F,HHJDXST,City,Silver Membership,27-09-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Wi-Fi,3:57:34,16,283.85,3888.65,18,959.92041,Yes,No,No,Not Applicable,Products always in Stock,0
+37,F,FETPOEF,City,Premium Membership,21-05-2017,?,CID60244,Credit/Debit Card Offers,Desktop,Fiber_Optic,15:51:05,17,136.19,6965.48,5,1181.873763,Yes,No,No,Not Applicable,Too many ads,0
+37,F,C6JR6MZ,Town,Gold Membership,09-02-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Wi-Fi,9:50:46,5,32.29,63097.55,-12.71431053,780.09,No,Yes,No,Not Applicable,User Friendly Website,0
+21,M,37UOC7C,Town,Silver Membership,01-07-2015,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Wi-Fi,10:40:52,12,145.45,48500.63,11,727.97,No,Yes,Yes,Solved,Poor Customer Service,0
+64,F,HSKJR4V,Town,Basic Membership,26-09-2017,No,xxxxxxxx,Credit/Debit Card Offers,Smartphone,Fiber_Optic,21:30:56,10,313.84,23211.35,15,573.16,Yes,No,No,Not Applicable,Poor Product Quality,1
+56,F,ZUA3VGF,Town,Silver Membership,03-02-2016,?,CID5182,Without Offers,Smartphone,Wi-Fi,15:52:11,11,254.72,28425.26,11,789.3,Yes,Yes,No,Not Applicable,No reason specified,0
+37,F,4WL24BT,Town,Basic Membership,21-07-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Fiber_Optic,3:50:58,9,206.56,13037.39,13,616.68,Yes,No,Yes,Solved in Follow-up,Too many ads,1
+55,M,2DJSDW1,Town,Basic Membership,07-10-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Wi-Fi,5:53:40,21,51.75,27564.76,24,660.59,No,Yes,No,Not Applicable,Too many ads,1
+18,M,BXLJS7C,City,Basic Membership,10-05-2016,Yes,CID15710,Without Offers,Smartphone,Fiber_Optic,3:33:17,10,117.9,49537.82,7,528.08,Yes,No,Yes,Solved,Poor Product Quality,1
+27,F,00JB6QS,,Silver Membership,27-09-2017,?,CID26757,Gift Vouchers/Coupons,?,Mobile_Data,3:23:24,2,484.45,83453.57,14,788.97,No,Yes,Yes,Unsolved,Reasonable Price,0
+57,M,IZYZD2D,Town,Premium Membership,26-10-2017,No,xxxxxxxx,Without Offers,Smartphone,Wi-Fi,4:12:57,6,32.89,16340.59,-1.590067118,,Yes,No,Yes,Solved in Follow-up,Poor Website,0
+48,F,3GUQMUN,City,Basic Membership,23-09-2017,Yes,CID3745,Credit/Debit Card Offers,Desktop,Mobile_Data,0:35:46,15,77.18,49448.05,5,605.23,No,Yes,Yes,No Information Available,Poor Product Quality,1
+54,M,9RXEBI1,Town,Basic Membership,24-07-2016,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Wi-Fi,18:00:30,8,60.77,45095.33,1.234738899,692.59,Yes,No,No,Not Applicable,Poor Product Quality,1
+52,F,ZJAXMWS,Village,Gold Membership,31-12-2017,No,xxxxxxxx,Without Offers,Smartphone,Mobile_Data,8:42:23,15,197.85,42084.72,18,710.7,No,Yes,No,Not Applicable,Poor Customer Service,0
+33,F,55D8U27,Town,Platinum Membership,20-09-2017,Yes,CID25657,Without Offers,Both,Mobile_Data,5:44:42,11,502.4,4714.82,24,472.8025704,Yes,No,No,Not Applicable,Poor Website,0
+35,M,MOXO4A8,Town,No Membership,05-03-2017,Yes,CID3266,Credit/Debit Card Offers,Smartphone,Fiber_Optic,2:47:53,6,33.96,6175.77,22,545.14,Yes,No,No,Not Applicable,Poor Product Quality,1
+42,M,VSSM0UP,City,Platinum Membership,06-10-2015,?,CID1047,Without Offers,Both,Mobile_Data,6:27:36,13,617.09,33226.66,17,1053.420685,Yes,Yes,Yes,No Information Available,Poor Product Quality,0
+39,F,OF3LNL7,City,Gold Membership,27-10-2017,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Fiber_Optic,20:50:56,9,34.93,42965.53,29,630.68,No,Yes,Yes,Solved,Poor Product Quality,1
+50,F,YH9ZYFL,City,Gold Membership,15-06-2016,Yes,CID2751,Without Offers,Desktop,Fiber_Optic,14:22:39,20,198.19,20710,10,,No,Yes,Yes,Unsolved,Poor Product Quality,1
+29,M,0B5WG72,City,Premium Membership,08-01-2015,Yes,CID38291,Gift Vouchers/Coupons,Desktop,Wi-Fi,22:58:44,11,317.25,17951.87,17,753.97,No,Yes,No,Not Applicable,Poor Customer Service,0
+47,M,I2HH3YZ,Town,No Membership,05-01-2017,Yes,CID19961,Credit/Debit Card Offers,?,Fiber_Optic,7:26:31,5,876.87,41927.46,17,636.3,Yes,No,Yes,Solved in Follow-up,Poor Website,0
+16,F,G1AHQST,City,Gold Membership,30-04-2017,No,xxxxxxxx,Gift Vouchers/Coupons,?,Wi-Fi,22:54:48,8,133.36,21896.63,13,644.25,Yes,No,No,Not Applicable,No reason specified,1
+48,M,NUQM3QR,,Basic Membership,28-12-2015,Yes,CID3699,Without Offers,?,Fiber_Optic,6:44:05,8,522.81,27264,11,556.79,Yes,Yes,Yes,Solved in Follow-up,Poor Website,1
+14,F,QK05KFG,City,No Membership,19-12-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Fiber_Optic,18:22:33,10,33.34,46392.24,24,582.93,Yes,No,No,Not Applicable,Poor Customer Service,1
+13,F,LQYM49A,Village,Premium Membership,28-11-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Fiber_Optic,6:53:31,5,84.05,10423.83,29,1044.81538,No,Yes,Yes,No Information Available,No reason specified,0
+56,F,HFDQ728,Town,No Membership,04-09-2016,Yes,CID11953,Without Offers,Desktop,Wi-Fi,20:17:36,19,69.22,14117.54,12,523.54,No,Yes,Yes,Solved in Follow-up,Poor Website,1
+64,F,2VRC6NG,City,Silver Membership,29-09-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Mobile_Data,0:50:05,14,32.16,67458.29,-13.64684955,764.62,Yes,No,Yes,Solved in Follow-up,User Friendly Website,0
+47,M,K7YIUTQ,Town,No Membership,14-03-2015,Yes,CID28985,Gift Vouchers/Coupons,Both,Wi-Fi,5:39:14,20,692.73,18404.11,19,1072.745128,Yes,No,Yes,No Information Available,Poor Website,1
+46,F,F5T938Y,Town,Premium Membership,02-08-2015,?,CID61716,Without Offers,Both,Mobile_Data,12:24:01,12,261.76,15786.32,Error,704.13,No,Yes,No,Not Applicable,Poor Product Quality,0
+45,M,LU390BC,Town,Premium Membership,04-04-2017,Yes,CID8218,Credit/Debit Card Offers,Smartphone,Mobile_Data,17:19:41,14,38.65,1225.14,9,700.07,Yes,No,Yes,Unsolved,Too many ads,0
+60,F,JIA5UDD,Town,Premium Membership,10-12-2015,Yes,CID14887,Without Offers,Smartphone,Wi-Fi,13:12:57,16,182.16,43782.88,Error,761.49,No,Yes,Yes,Solved in Follow-up,User Friendly Website,0
+19,F,7B5M8OC,Town,Premium Membership,30-03-2016,Yes,CID60641,Without Offers,Smartphone,Fiber_Optic,21:43:53,20,31.98,14432.03,24,730.04,Yes,No,Yes,Solved,Poor Customer Service,0
+21,F,AOHLG0V,Town,Silver Membership,23-03-2017,No,xxxxxxxx,Credit/Debit Card Offers,?,Mobile_Data,11:57:54,12,283.79,38527.24,26,760.53,Yes,No,Yes,No Information Available,No reason specified,0
+60,M,66DEWYB,City,Silver Membership,27-07-2015,?,CID1697,Credit/Debit Card Offers,Both,Mobile_Data,15:15:08,9,1185.91225,29872.64,8,744.29,Yes,No,Yes,Solved in Follow-up,Poor Customer Service,0
+32,M,XF40RRS,Town,Gold Membership,11-11-2017,No,xxxxxxxx,Credit/Debit Card Offers,Smartphone,Mobile_Data,8:07:36,17,329.16,37811.56,27,757.14,No,Yes,Yes,Unsolved,Poor Website,0
+36,F,2V0SZHQ,Town,Premium Membership,09-12-2017,Yes,CID43621,Gift Vouchers/Coupons,Both,Fiber_Optic,11:59:47,7,700.63,26571.36,13,738.84,Yes,Yes,No,Not Applicable,Products always in Stock,0
+52,F,L5WC8WS,Town,Basic Membership,24-08-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Wi-Fi,5:10:18,3,166.57,45964.8,17,630,Yes,No,Yes,No Information Available,Too many ads,1
+39,M,F91GV32,Town,No Membership,29-12-2016,Yes,CID55829,Without Offers,Smartphone,Fiber_Optic,12:04:43,12,126.05,43632.02,16,594.51,Yes,No,No,Not Applicable,Poor Website,1
+42,F,609T4VI,City,Silver Membership,03-09-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Fiber_Optic,21:19:08,11,428.35,26483.73,14,713.42,No,Yes,No,Not Applicable,No reason specified,0
+56,M,NIHJCOO,Town,Silver Membership,03-05-2017,Yes,CID55012,Credit/Debit Card Offers,?,Wi-Fi,9:14:11,16,148.06,15456.63,29,984.3321162,No,Yes,Yes,Solved in Follow-up,No reason specified,1
+17,F,CKLHKX1,Town,Gold Membership,12-07-2017,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Fiber_Optic,17:08:48,15,196.56,1246.57,22,766.76,Yes,No,Yes,Solved in Follow-up,No reason specified,0
+56,M,RHUBYN8,Town,No Membership,30-08-2016,No,xxxxxxxx,Without Offers,Desktop,Wi-Fi,15:15:00,10,359.98,38699.34,29,560.14,No,Yes,Yes,No Information Available,Poor Customer Service,0
+33,F,PWOU487,City,Premium Membership,29-12-2017,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Mobile_Data,22:23:29,22,32.47,25468.76,Error,298.868694,No,Yes,No,Not Applicable,Poor Customer Service,0
+33,F,MROG29A,City,Gold Membership,07-11-2015,No,xxxxxxxx,Without Offers,Smartphone,Fiber_Optic,21:57:40,22,177.73,35286.1,Error,709.01,Yes,No,Yes,No Information Available,Poor Website,1
+41,M,R4TAGQ6,Town,Basic Membership,11-05-2015,No,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Fiber_Optic,5:58:17,9,493.22,20294,23,,Yes,No,No,Not Applicable,Poor Website,1
+42,F,PYIV6U9,City,Basic Membership,13-05-2017,No,xxxxxxxx,Gift Vouchers/Coupons,?,Mobile_Data,15:40:49,4,316.14,13516.16,20,659.85,No,Yes,Yes,Solved,Poor Product Quality,1
+43,M,H4GXLTP,,Gold Membership,14-05-2017,Yes,CID40296,Gift Vouchers/Coupons,Desktop,Mobile_Data,10:21:20,19,107.18,16027.34,4,1059.640736,No,Yes,Yes,Solved,User Friendly Website,0
+12,F,NKMSURJ,City,No Membership,11-06-2015,Yes,CID62525,Gift Vouchers/Coupons,?,Wi-Fi,0:11:54,22,108.2,2998.4,26,678.14,Yes,No,Yes,No Information Available,Too many ads,1
+23,F,T1S3FJN,Village,Basic Membership,13-05-2015,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Mobile_Data,14:55:27,11,-900.2103186,14865.87,25,,No,Yes,Yes,Solved,No reason specified,1
+14,F,E95TA6W,Town,Gold Membership,02-07-2015,No,xxxxxxxx,Gift Vouchers/Coupons,Both,Wi-Fi,20:13:47,5,407.97,19138.74,12,,No,Yes,No,Not Applicable,Poor Website,1
+62,F,J44762N,Town,Gold Membership,18-10-2015,Yes,CID31521,Without Offers,Smartphone,Fiber_Optic,23:01:03,6,308.28,38497.78,21,792.37,Yes,No,Yes,Unsolved,Too many ads,0
+60,M,OQ8U35S,Town,Gold Membership,17-12-2015,?,CID41894,Gift Vouchers/Coupons,Desktop,Mobile_Data,21:15:26,7,67.78,14175.2,Error,464.501175,No,Yes,Yes,Solved in Follow-up,Poor Customer Service,1
+56,M,C1WO41D,Town,Basic Membership,23-07-2016,Yes,CID53761,Without Offers,Desktop,Mobile_Data,2:08:29,5,732.71,47547.72,15,936.3622801,Yes,Yes,Yes,Unsolved,Poor Product Quality,1
+41,M,9MVALUF,,Gold Membership,14-06-2015,Yes,CID31015,Gift Vouchers/Coupons,Desktop,Fiber_Optic,13:58:51,22,188.96,40428.78,23,614.25,No,Yes,Yes,Solved in Follow-up,Too many ads,1
+18,F,AGIKGT5,Town,Gold Membership,02-05-2016,No,xxxxxxxx,Without Offers,Desktop,Wi-Fi,15:41:22,21,32.82,46250.9,2,779.89,Yes,No,No,Not Applicable,User Friendly Website,0
+63,M,68X50DQ,Village,Gold Membership,25-03-2017,Yes,CID29711,Credit/Debit Card Offers,Both,Fiber_Optic,22:19:51,17,1099.5,95625.4,13,,No,Yes,No,Not Applicable,Quality Customer Care,0
+23,M,FI7GAP2,City,Gold Membership,08-12-2017,Yes,CID55727,Without Offers,Desktop,Fiber_Optic,8:16:00,15,547.87,36383.39,4,763.15,No,Yes,Yes,Solved,Products always in Stock,0
+17,M,9UJH2VO,City,Platinum Membership,30-10-2017,Yes,CID17316,Credit/Debit Card Offers,Desktop,Mobile_Data,4:38:03,14,80.4,15214.2,16,761.95,Yes,No,No,Not Applicable,No reason specified,0
+42,F,EDXS9Z3,City,Gold Membership,28-03-2016,Yes,xxxxxxxx,Without Offers,Desktop,Wi-Fi,0:30:47,8,179.84,39667.91,10,-38.08431401,No,Yes,No,Not Applicable,Poor Product Quality,0
+31,F,LU3B1CT,City,Silver Membership,01-02-2017,?,CID18443,Without Offers,Desktop,Wi-Fi,18:56:15,10,731.24,36981.7,26,774.16,No,Yes,Yes,Unsolved,Poor Customer Service,0
+12,F,F6PS8PZ,Town,Gold Membership,02-06-2017,No,xxxxxxxx,Credit/Debit Card Offers,?,Wi-Fi,7:15:44,13,49.19,35209.09,10,799.43,No,Yes,Yes,No Information Available,Quality Customer Care,0
+63,M,YJ229A7,,Platinum Membership,13-11-2017,No,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Fiber_Optic,14:38:00,15,30.66,15079.52,23,469.5653778,Yes,No,No,Not Applicable,Too many ads,0
+16,F,DFL14TM,Town,Premium Membership,03-11-2017,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Fiber_Optic,1:19:35,7,34.49,31418.7,Error,770.66,Yes,No,Yes,Unsolved,Poor Product Quality,0
+38,M,59VYKZF,Town,Basic Membership,04-02-2016,Yes,xxxxxxxx,Without Offers,Desktop,Mobile_Data,14:27:08,17,117.11,29114.92,Error,521.7,No,Yes,Yes,No Information Available,Too many ads,1
+15,M,LDYMHD4,City,Platinum Membership,18-12-2015,No,xxxxxxxx,Gift Vouchers/Coupons,?,Wi-Fi,10:15:03,-999,93.76,28456.92,5,704.31,No,Yes,No,Not Applicable,Poor Website,0
+30,M,WH0V4K6,City,No Membership,06-11-2015,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Wi-Fi,21:19:03,-999,121.38,13374.01,12,693,Yes,No,No,Not Applicable,Poor Website,1
+64,M,WBTDLCE,Village,No Membership,11-10-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Both,Mobile_Data,22:40:06,10,445.01,37220.97,Error,550.13,No,Yes,Yes,Solved,Poor Website,1
+59,M,UL9ZZKV,Town,No Membership,29-01-2015,Yes,CID29969,Credit/Debit Card Offers,Smartphone,Mobile_Data,5:25:51,10,628.79,40093.14,55.01616857,622.06,No,Yes,No,Not Applicable,Poor Customer Service,1
+23,M,HBY1Q1U,City,No Membership,04-08-2015,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Fiber_Optic,6:35:32,11,31.45,18606.73,24,621.94,No,Yes,No,Not Applicable,Poor Product Quality,1
+32,F,80Y00VC,Town,Silver Membership,22-06-2015,No,xxxxxxxx,Without Offers,Smartphone,Wi-Fi,9:31:02,24,38.88,41019.89,19,750.83,No,Yes,Yes,Solved,Quality Customer Care,0
+11,M,4ZHLYTJ,,Premium Membership,03-05-2015,Yes,CID53052,Gift Vouchers/Coupons,Smartphone,Wi-Fi,3:24:09,12,85.52,10636.13,5,730.02,No,Yes,No,Not Applicable,Too many ads,0
+42,M,64DX0N9,City,Platinum Membership,30-07-2016,Yes,CID39513,Credit/Debit Card Offers,?,Mobile_Data,21:51:05,22,1097.82189,27380.8,27,799.91,No,Yes,Yes,Solved in Follow-up,Poor Product Quality,0
+12,M,OGM3BJL,Town,No Membership,01-11-2017,No,xxxxxxxx,Without Offers,Desktop,Wi-Fi,21:24:47,8,322.3,14310.09,11,559.2451349,Yes,No,No,Not Applicable,Poor Product Quality,1
+45,M,Z8NLVWM,City,Premium Membership,01-07-2015,Yes,CID17073,Gift Vouchers/Coupons,?,Wi-Fi,0:36:22,13,31.2,37295.99,25,1196.60075,No,Yes,No,Not Applicable,Too many ads,0
+19,F,34U09OT,Town,Platinum Membership,24-03-2015,Yes,CID58426,Without Offers,Smartphone,Fiber_Optic,9:32:13,11,38.63,23832.38,Error,,No,Yes,Yes,Solved,Poor Product Quality,0
+55,F,HLDJORJ,City,Gold Membership,06-08-2015,No,xxxxxxxx,Without Offers,Smartphone,Fiber_Optic,11:24:45,12,291.94,97643.81,5,713.99,Yes,Yes,No,Not Applicable,User Friendly Website,0
+16,F,283BT2B,City,Silver Membership,27-02-2017,No,xxxxxxxx,Without Offers,Desktop,Wi-Fi,2:31:57,-999,343.13,32605.84,16,335.2620818,No,Yes,No,Not Applicable,Poor Customer Service,1
+56,M,GWVAMR3,City,Platinum Membership,11-02-2016,?,CID9744,Gift Vouchers/Coupons,Smartphone,Fiber_Optic,21:38:24,19,180.37,21460.83,27,240.158193,Yes,No,No,Not Applicable,Poor Customer Service,0
+24,F,XEXJM7V,Town,Silver Membership,08-11-2016,Yes,CID50921,Gift Vouchers/Coupons,?,Mobile_Data,18:48:58,23,31.81,36494.51,24,622.69,No,Yes,No,Not Applicable,Poor Customer Service,1
+24,F,O8C0RJU,Town,Platinum Membership,14-01-2015,No,xxxxxxxx,Without Offers,Smartphone,Mobile_Data,4:44:07,12,31.86,21842.03,19,743.44,No,Yes,No,Not Applicable,Too many ads,0
+53,M,0D75NLR,Town,Basic Membership,11-06-2015,No,xxxxxxxx,Credit/Debit Card Offers,?,Mobile_Data,12:27:16,5,428.81,40698.54,9,600.39,No,Yes,Yes,Solved in Follow-up,Poor Website,1
+12,F,YQM5749,Town,No Membership,18-08-2015,No,xxxxxxxx,Credit/Debit Card Offers,?,Wi-Fi,3:00:30,17,97.85,31574.54,28,,No,Yes,No,Not Applicable,Poor Website,1
+58,M,D9RGBNN,Town,Basic Membership,19-02-2015,?,xxxxxxxx,Without Offers,Desktop,Fiber_Optic,21:35:10,19,1223.769011,47756.12,15,631.09,Yes,No,No,Not Applicable,No reason specified,1
+63,F,IZ5S9B4,Village,Premium Membership,16-06-2017,Yes,xxxxxxxx,Credit/Debit Card Offers,Smartphone,Mobile_Data,11:08:03,15,1090.92,12483.66,2,705.75,Yes,Yes,Yes,Solved in Follow-up,Quality Customer Care,0
+62,M,VIEXSQI,Town,Gold Membership,07-07-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Mobile_Data,16:25:44,13,402.05,20411.69,15,517.3513913,Yes,No,No,Not Applicable,Products always in Stock,0
+48,F,X3X272M,Village,Platinum Membership,09-04-2015,Yes,CID54885,Gift Vouchers/Coupons,Desktop,Mobile_Data,19:26:49,2,33.18,24394.24,16,1042.087064,No,Yes,Yes,No Information Available,Poor Product Quality,0
+60,M,Q6N9OQO,Town,Gold Membership,01-11-2015,?,CID1942,,Smartphone,Fiber_Optic,15:30:02,9,54.08,19078.81,17,752.88,Yes,No,Yes,Solved,Poor Website,0
+64,F,ZAIGYY6,City,Basic Membership,19-08-2017,Yes,CID25795,Gift Vouchers/Coupons,Both,Fiber_Optic,14:10:26,9,-408.2693519,36532.11,16,621.72,No,Yes,No,Not Applicable,Poor Website,1
+11,F,FOFKSWJ,,Basic Membership,10-12-2016,?,CID15156,Gift Vouchers/Coupons,Smartphone,Fiber_Optic,13:03:40,5,106.24,47511.49,11,559.8,Yes,No,No,Not Applicable,Poor Customer Service,1
+39,M,0EE8AUR,City,No Membership,02-06-2015,?,CID56779,Gift Vouchers/Coupons,Desktop,Mobile_Data,6:32:47,15,46.22,35937.37,6,,Yes,No,No,Not Applicable,Too many ads,1
+52,F,MVPVHC0,City,No Membership,09-10-2016,No,xxxxxxxx,Without Offers,?,Fiber_Optic,0:11:39,15,45.45,47218.23,29,632.14,No,Yes,No,Not Applicable,Too many ads,1
+54,F,NH8E90F,Town,Gold Membership,11-11-2016,Yes,CID17485,Gift Vouchers/Coupons,Smartphone,Fiber_Optic,13:20:56,2,67.48,47619.23,10,754.69,No,Yes,No,Not Applicable,Quality Customer Care,0
+12,M,QEGEKY2,Town,Silver Membership,23-04-2015,Yes,CID17794,Credit/Debit Card Offers,Smartphone,Wi-Fi,5:27:10,2,226.47,27477.44,16,748.61,Yes,No,No,Not Applicable,Poor Customer Service,0
+49,F,QNROU0L,,Gold Membership,05-01-2015,Yes,CID37424,Credit/Debit Card Offers,Smartphone,Fiber_Optic,20:54:58,9,714.55,10779.16,23,734.08,Yes,No,No,Not Applicable,Poor Customer Service,0
+23,M,RI50KRT,Town,Premium Membership,03-02-2017,No,xxxxxxxx,Without Offers,Desktop,Wi-Fi,20:24:42,16,125.89,77291.02,1,1085.770601,Yes,No,Yes,Solved,Reasonable Price,0
+62,F,Q951RKD,Village,No Membership,10-04-2017,Yes,CID39249,Credit/Debit Card Offers,Smartphone,Mobile_Data,23:20:07,17,112.9,20038.77,12,274.3235842,No,Yes,No,Not Applicable,Poor Product Quality,1
+45,M,DEUIPM7,,Silver Membership,13-09-2017,No,xxxxxxxx,Credit/Debit Card Offers,Smartphone,Fiber_Optic,18:54:56,19,105.91,46063.59,6,761.41,Yes,No,Yes,No Information Available,Too many ads,0
+17,F,79PGHF5,,Silver Membership,13-12-2015,Yes,CID34082,Without Offers,Smartphone,Wi-Fi,11:52:48,9,154.43,11333.18,18,740.91,Yes,No,No,Not Applicable,Too many ads,0
+22,M,U6NLZ8J,Village,Basic Membership,03-03-2015,?,CID10143,Without Offers,Desktop,Wi-Fi,8:34:51,10,589.12,36545.91,12,680.88,Yes,No,Yes,Unsolved,Poor Customer Service,1
+38,M,NTV8MPA,Town,No Membership,22-02-2017,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Mobile_Data,22:28:39,17,174.48,40594.31,Error,615.71,No,Yes,Yes,Solved in Follow-up,No reason specified,1
+28,M,PL95KDY,City,Platinum Membership,24-07-2017,Yes,CID50972,Without Offers,Smartphone,Wi-Fi,15:28:01,16,43.58,23397.98,8,759.48,Yes,No,No,Not Applicable,Poor Customer Service,0
+39,F,LZRM07Q,City,Silver Membership,24-12-2017,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Fiber_Optic,7:55:58,9,32.91,11023.03,Error,208.9039452,No,Yes,No,Not Applicable,Too many ads,0
+61,F,NRO2XPN,Town,No Membership,26-01-2017,Yes,CID35547,Gift Vouchers/Coupons,Desktop,Wi-Fi,7:31:27,20,100.33,34614.42,15,642.93,No,Yes,Yes,Solved in Follow-up,No reason specified,1
+64,M,X9FTAIP,Town,Gold Membership,17-10-2016,?,CID45652,Gift Vouchers/Coupons,Desktop,Mobile_Data,12:07:21,11,449.03,33430.37,14,435.9525483,No,Yes,Yes,Solved,Quality Customer Care,0
+37,M,YYBYDH2,Town,Silver Membership,29-08-2016,Yes,CID44775,Without Offers,Smartphone,Wi-Fi,2:16:31,7,43.78,17353.48,21,282.3638793,Yes,No,No,Not Applicable,Poor Customer Service,1
+48,M,W2VQNLG,,No Membership,20-01-2015,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Wi-Fi,7:38:43,13,188.21,7375.39,16,664.98,No,Yes,No,Not Applicable,No reason specified,1
+54,M,Y05E2L6,Town,Premium Membership,04-07-2015,Yes,CID26305,Gift Vouchers/Coupons,Smartphone,Fiber_Optic,0:15:38,10,32.13,35792.72,27,,Yes,No,Yes,Solved,Poor Customer Service,0
+34,F,PQCBFXH,City,Gold Membership,13-06-2016,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Mobile_Data,4:00:11,19,154.58,3612.98,24,,Yes,No,Yes,Solved,Poor Customer Service,0
+50,F,DCNUISZ,Town,Silver Membership,01-02-2015,Yes,CID9360,Gift Vouchers/Coupons,?,Fiber_Optic,14:10:05,11,145.59,13518.27,12,740.22,Yes,No,No,Not Applicable,Poor Customer Service,0
+20,F,L64C7SR,Town,Gold Membership,02-11-2015,Yes,CID30127,Credit/Debit Card Offers,Desktop,Wi-Fi,7:30:43,14,233.72,15596.42,14,780.92,Yes,No,No,Not Applicable,Poor Website,0
+27,F,UR4QMPI,Village,No Membership,17-07-2015,Yes,CID63189,Credit/Debit Card Offers,Desktop,Mobile_Data,10:58:35,15,304.09,32189.63,7,549.41,No,Yes,Yes,No Information Available,Too many ads,1
+14,F,GQX8TBS,Town,No Membership,12-05-2016,?,CID12041,Credit/Debit Card Offers,?,Wi-Fi,13:34:16,14,163.99,27114.49,29,583.06,No,Yes,Yes,Solved in Follow-up,No reason specified,1
+32,F,77O4EDB,,No Membership,01-06-2015,Yes,CID22478,Credit/Debit Card Offers,Both,Fiber_Optic,5:33:20,8,255.4,13608.16,16,524.52,Yes,Yes,Yes,Solved,Poor Website,1
+55,F,PGZNTFI,City,No Membership,15-03-2017,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Wi-Fi,17:15:17,12,488,20417.72,10,656.21,No,Yes,No,Not Applicable,Poor Website,1
+21,F,F8K7EN7,City,No Membership,05-11-2015,No,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Mobile_Data,23:58:49,13,39.62,46139.37,16,673.05,Yes,No,No,Not Applicable,Poor Customer Service,1
+12,M,QBAFDF0,Town,No Membership,24-10-2017,Yes,CID28912,Gift Vouchers/Coupons,Desktop,Wi-Fi,13:09:11,17,110.59,12478.19,21,671.23,No,Yes,Yes,Solved,Poor Customer Service,1
+58,F,GOWBPNN,Town,Gold Membership,18-08-2017,Yes,xxxxxxxx,Without Offers,Both,Fiber_Optic,6:02:07,6,1600.12,15610.96,13,725.74,No,Yes,Yes,Solved in Follow-up,Poor Website,0
+23,F,DMOR4O2,Town,Basic Membership,06-08-2015,No,xxxxxxxx,Credit/Debit Card Offers,Smartphone,Wi-Fi,22:44:19,9,54.12,24610.29,10,653.38,No,Yes,Yes,Solved in Follow-up,Poor Customer Service,1
+55,F,XKALTPH,Town,Silver Membership,17-05-2016,?,xxxxxxxx,Without Offers,Smartphone,Fiber_Optic,15:54:13,6,633.62,58077.98,7,796,Yes,Yes,Yes,Solved in Follow-up,User Friendly Website,0
+26,M,UG6BJYB,,Silver Membership,09-10-2016,Yes,CID49989,Credit/Debit Card Offers,Desktop,Wi-Fi,12:06:41,9,55.29,12574.16,18,633.64,No,Yes,No,Not Applicable,Poor Website,1
+16,M,KBXFNYG,City,Gold Membership,01-05-2017,Yes,CID24314,Without Offers,Desktop,Fiber_Optic,12:54:24,26,936.34,30998.94,29,778.24,Yes,Yes,Yes,Unsolved,No reason specified,0
+17,M,8GD5YKQ,Town,Silver Membership,22-01-2016,No,xxxxxxxx,Without Offers,Smartphone,Mobile_Data,11:32:52,6,352.25,31444.17,10,668.44,Yes,Yes,Yes,Solved,Too many ads,1
+11,M,O0NVW37,City,Premium Membership,21-05-2015,No,xxxxxxxx,Without Offers,Smartphone,Fiber_Optic,11:54:05,18,128.93,66961.7,19,765.97,No,Yes,No,Not Applicable,Quality Customer Care,0
+44,M,QWFR1F0,City,Gold Membership,13-12-2017,Yes,CID17367,Credit/Debit Card Offers,Smartphone,Fiber_Optic,10:19:46,20,38.56,16717.72,28,550.1900866,Yes,No,Yes,Solved in Follow-up,Poor Website,0
+16,F,6GPTGHP,Town,Gold Membership,01-10-2016,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Fiber_Optic,13:39:55,7,220.07,45054.8,12,623.93,Yes,Yes,No,Not Applicable,Too many ads,1
+30,F,N7UVJCM,City,No Membership,07-07-2017,Yes,xxxxxxxx,Gift Vouchers/Coupons,?,Wi-Fi,16:29:15,21,31.66,5643.14,11,711.22,No,Yes,No,Not Applicable,Too many ads,0
+17,F,AEJYFYL,Town,Silver Membership,07-06-2016,Yes,xxxxxxxx,Credit/Debit Card Offers,Desktop,Mobile_Data,0:57:31,9,1053.12,15799.78,28,945.4319714,Yes,Yes,Yes,Solved,Poor Product Quality,0
+35,M,ORIWFX9,City,Gold Membership,11-07-2017,Yes,CID31628,Gift Vouchers/Coupons,Both,Mobile_Data,8:54:18,11,263.58,34046.4,9,649.88,Yes,No,No,Not Applicable,Poor Customer Service,1
+62,M,D56M3E5,City,Basic Membership,31-07-2017,Yes,CID12477,Without Offers,Desktop,Mobile_Data,6:06:49,12,282.88,40612.89,28,,No,Yes,Yes,Solved,No reason specified,1
+25,M,2M6JVJH,Town,Basic Membership,25-10-2017,?,CID2113,Credit/Debit Card Offers,Desktop,Wi-Fi,7:15:29,14,142.87,43660.25,29,580.25,No,Yes,Yes,No Information Available,Poor Customer Service,1
+22,F,M1KKYP4,,Silver Membership,06-12-2015,Yes,CID58207,Without Offers,Smartphone,Mobile_Data,17:08:16,12,-604.024795,47001.28,8,,Yes,No,No,Not Applicable,Poor Customer Service,0
+58,F,9RLQNSH,Town,Basic Membership,07-03-2016,No,xxxxxxxx,Credit/Debit Card Offers,?,Mobile_Data,18:00:22,15,120.5,4165.97,17,694.31,Yes,No,No,Not Applicable,Poor Product Quality,1
+62,F,338X9DU,Town,Basic Membership,14-09-2017,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Mobile_Data,2:31:07,20,103.42,36445.77,Error,663.11,Yes,No,No,Not Applicable,Poor Product Quality,1
+41,M,IQMO2K1,Town,Gold Membership,03-12-2015,?,CID54424,Without Offers,Smartphone,Wi-Fi,4:43:13,7,248.72,33879.22,26,713.39,No,Yes,Yes,Solved in Follow-up,Poor Customer Service,1
+48,M,NGARRGW,Town,Premium Membership,21-03-2015,Yes,CID42927,Gift Vouchers/Coupons,Desktop,Fiber_Optic,9:13:35,-999,58.73,39995.8,28,708.74,No,Yes,No,Not Applicable,Poor Customer Service,0
+41,M,Q80YIPV,City,Platinum Membership,18-09-2017,?,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Mobile_Data,8:31:17,10,129.09,25893.09,19,732.65,Yes,No,Yes,Solved,Poor Product Quality,0
+38,M,HLOAGZN,,Basic Membership,04-04-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Wi-Fi,21:56:37,2,392.09,13706.85,7,1176.200422,Yes,No,No,Not Applicable,Poor Customer Service,1
+21,M,YEQQD8L,Town,Platinum Membership,20-09-2015,No,xxxxxxxx,Credit/Debit Card Offers,Smartphone,Mobile_Data,20:16:00,9,164.87,49628.7,15,188.1924469,Yes,No,No,Not Applicable,Too many ads,0
+62,M,QGBT460,,Basic Membership,31-01-2017,Yes,CID41029,Gift Vouchers/Coupons,Smartphone,Fiber_Optic,2:41:07,3,280.47,25452.4,18,,No,Yes,No,Not Applicable,Poor Product Quality,1
+40,F,0TTVF88,City,Basic Membership,23-08-2015,Yes,CID49598,Credit/Debit Card Offers,Smartphone,Mobile_Data,10:42:49,12,126.63,44732.67,20,,Yes,No,No,Not Applicable,Poor Product Quality,1
+48,M,D0U8LVD,,Gold Membership,17-10-2017,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Fiber_Optic,7:31:07,15,850.5036092,17373.46,13,657.12,No,Yes,Yes,Solved in Follow-up,Poor Customer Service,1
+38,M,NZIC7MG,Village,No Membership,10-06-2015,No,xxxxxxxx,Without Offers,Desktop,Mobile_Data,19:18:50,11,376.93,31089.9,25,1071.824763,Yes,No,Yes,Solved,No reason specified,1
+12,F,USG1LRO,City,No Membership,09-07-2016,Yes,CID41164,Without Offers,Both,Fiber_Optic,0:27:18,13,619.2,44015.54,9,826.4263584,Yes,Yes,No,Not Applicable,Poor Product Quality,1
+34,F,2363Q5M,Town,Silver Membership,30-05-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Mobile_Data,1:14:04,5,165.92,46167.97,23,661.83,No,Yes,No,Not Applicable,No reason specified,1
+59,M,GKQZ8GZ,,Gold Membership,18-12-2017,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Fiber_Optic,14:34:25,15,202.73,23566.49,3,,No,Yes,No,Not Applicable,Reasonable Price,0
+43,M,BX6A38K,City,Basic Membership,05-12-2017,Yes,CID2593,Credit/Debit Card Offers,?,Mobile_Data,23:12:17,13,641.9,11203.68,Error,614.1,No,Yes,No,Not Applicable,Poor Website,1
+15,M,XBODOGY,Town,Silver Membership,20-04-2016,Yes,CID30063,Gift Vouchers/Coupons,Smartphone,Mobile_Data,8:48:39,14,766.04,44858.07,18,689.99,Yes,Yes,No,Not Applicable,Poor Customer Service,1
+23,M,CDCNVB2,,Silver Membership,20-05-2015,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Wi-Fi,9:37:53,23,1000.987122,45893.91,14,633.41,Yes,No,Yes,Unsolved,No reason specified,1
+55,M,33IA08M,Town,Premium Membership,21-09-2017,Yes,CID4140,Without Offers,Smartphone,Mobile_Data,8:31:51,7,792.59,44496.31,19,741.71,Yes,No,No,Not Applicable,Too many ads,0
+59,F,OOVLXOQ,Town,Premium Membership,08-08-2015,Yes,CID19181,Gift Vouchers/Coupons,Desktop,Wi-Fi,4:58:19,12,629.37,23602.1,11,742.41,Yes,Yes,No,Not Applicable,Poor Website,0
+50,M,XE5HS3F,Town,No Membership,04-09-2015,Yes,CID63864,Gift Vouchers/Coupons,Smartphone,Fiber_Optic,22:00:15,22,56.28,6124.94,15,561.78,No,Yes,No,Not Applicable,Poor Website,1
+48,F,WK5FO8X,City,Basic Membership,08-10-2016,Yes,CID12788,Credit/Debit Card Offers,Smartphone,Mobile_Data,20:42:53,20,200.46,40236.57,21,647.61,Yes,No,No,Not Applicable,No reason specified,1
+23,F,20FMCRX,City,No Membership,02-11-2015,Yes,CID31932,Without Offers,Smartphone,Mobile_Data,20:11:05,16,1262.444589,12163.94,11,677.29,Yes,No,No,Not Applicable,Poor Customer Service,1
+55,M,MM0UCBB,Town,No Membership,19-07-2017,No,xxxxxxxx,Without Offers,Smartphone,Mobile_Data,11:29:36,14,299.27,7015.77,20,,No,Yes,Yes,Solved,Poor Product Quality,1
+33,M,TOA1V9G,City,Platinum Membership,03-11-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Mobile_Data,1:51:19,20,260.92,70639.99,-5.339638902,760.54,No,Yes,No,Not Applicable,User Friendly Website,0
+49,M,P3J1T89,Town,No Membership,23-11-2015,Yes,CID21962,Without Offers,Smartphone,Wi-Fi,4:43:09,15,30.58,38036.67,29,636.43,Yes,No,Yes,Solved,Too many ads,1
+55,M,NBKMU9M,Town,Silver Membership,28-09-2017,No,xxxxxxxx,Without Offers,?,Mobile_Data,21:02:29,16,34.61,45824.46,12,,Yes,No,Yes,No Information Available,No reason specified,1
+56,F,LTU84Z8,Village,No Membership,17-12-2017,Yes,CID33512,Without Offers,Smartphone,Fiber_Optic,22:20:45,11,177.42,6280.96,20,578.69,Yes,No,Yes,No Information Available,No reason specified,1
+32,F,QK6FF63,City,No Membership,27-02-2016,Yes,CID43979,Gift Vouchers/Coupons,Desktop,Wi-Fi,6:53:53,15,33.77,32673.05,21,529.02,No,Yes,No,Not Applicable,No reason specified,1
+52,M,ZGMUIIB,Village,Gold Membership,13-05-2016,No,xxxxxxxx,Without Offers,Desktop,Wi-Fi,23:24:53,15,33.5,50085.74,4,1242.200999,No,Yes,No,Not Applicable,Reasonable Price,0
+16,M,LUOQ29J,Town,No Membership,30-12-2016,Yes,CID60578,Credit/Debit Card Offers,Smartphone,Wi-Fi,15:39:51,8,62.53,23123.43,22,524.34,Yes,No,No,Not Applicable,Too many ads,1
+48,F,04HL3DY,Village,Basic Membership,22-11-2015,Yes,CID10163,Credit/Debit Card Offers,Smartphone,Mobile_Data,10:58:27,15,583.96,38477.8,13,608.37,Yes,No,No,Not Applicable,No reason specified,1
+61,M,EWKOKT8,City,Platinum Membership,17-07-2017,No,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Mobile_Data,6:16:06,9,315.37,28202.86,19,778.62,Yes,No,No,Not Applicable,Poor Website,0
+33,F,TKBQI3G,Town,Basic Membership,07-05-2016,Yes,CID55094,Without Offers,Smartphone,Wi-Fi,21:13:44,14,146.24,2203.18,15,301.5444844,No,Yes,Yes,Solved in Follow-up,No reason specified,1
+22,M,LGTEN2N,City,No Membership,11-08-2016,Yes,CID46334,Gift Vouchers/Coupons,Desktop,Wi-Fi,4:45:08,20,103.51,21574,5,414.2461508,No,Yes,Yes,Solved in Follow-up,Poor Product Quality,1
+15,M,AJIO3HH,City,Basic Membership,05-09-2015,No,xxxxxxxx,Without Offers,Smartphone,Wi-Fi,0:39:31,19,-739.6765749,1808.39,22,,Yes,No,No,Not Applicable,No reason specified,1
+10,F,OQA685G,Village,Silver Membership,16-02-2016,No,xxxxxxxx,Without Offers,?,Fiber_Optic,14:00:49,12,142.34,38249.21,23,1078.760958,Yes,No,Yes,Unsolved,No reason specified,1
+50,M,BS5TEBS,Village,Platinum Membership,03-03-2016,Yes,CID9580,Gift Vouchers/Coupons,Both,Fiber_Optic,20:51:40,4,-431.0821631,9508.56,20,165.4194561,Yes,No,Yes,No Information Available,No reason specified,0
+12,M,V9UQEYQ,City,No Membership,05-02-2016,Yes,CID14260,Credit/Debit Card Offers,Desktop,Mobile_Data,7:34:25,14,86.25,31792.97,9,1098.600851,No,Yes,Yes,No Information Available,Too many ads,1
+10,M,W4JI31Q,Town,Premium Membership,13-09-2015,Yes,CID40819,Gift Vouchers/Coupons,Smartphone,Mobile_Data,21:28:34,-999,78.93,49093.95,28,791.99,Yes,No,No,Not Applicable,Too many ads,0
+12,M,L30J789,Town,No Membership,19-04-2017,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Fiber_Optic,7:44:03,8,122.17,12440.72,5,677.35,No,Yes,Yes,No Information Available,Poor Website,1
+45,F,BJ3F5CH,Town,No Membership,20-07-2017,Yes,CID53947,Without Offers,Smartphone,Wi-Fi,3:49:34,6,1482.53,13626.01,23,555.38,Yes,Yes,No,Not Applicable,No reason specified,1
+14,F,GXMBJ1A,Town,No Membership,29-01-2016,Yes,CID52837,Without Offers,Desktop,Wi-Fi,17:27:16,1,385.72,18512.96,Error,557.61,Yes,Yes,Yes,Solved,No reason specified,1
+40,F,0BGG2FZ,Town,Basic Membership,17-12-2017,Yes,CID5445,Without Offers,Smartphone,Wi-Fi,3:40:28,14,91.7,23406.99,Error,668.48,No,Yes,Yes,Solved,Too many ads,0
+25,M,W3NSYTC,City,Platinum Membership,11-01-2017,Yes,CID60395,Credit/Debit Card Offers,Smartphone,Wi-Fi,4:53:43,24,31.84,11412.83,53.5713734,703.86,Yes,No,Yes,Solved in Follow-up,Poor Website,0
+20,F,DPBJ9LG,,Gold Membership,01-02-2015,Yes,CID18157,Credit/Debit Card Offers,Smartphone,Fiber_Optic,23:58:28,12,30.36,46548.07,15,723,No,Yes,Yes,Unsolved,Poor Customer Service,0
+37,F,7J3POQ0,City,Basic Membership,07-09-2017,Yes,CID40425,Without Offers,Smartphone,Mobile_Data,13:10:19,13,32.62,47228.58,12,,No,Yes,Yes,Solved,No reason specified,1
+13,M,DD3Q6FB,City,Silver Membership,21-03-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Wi-Fi,7:23:53,4,150.97,85750.12,6,785.69,Yes,No,No,Not Applicable,Quality Customer Care,0
+33,F,IZ6YPZD,Town,Silver Membership,25-08-2015,Yes,CID18588,Gift Vouchers/Coupons,Desktop,Fiber_Optic,5:44:44,-999,94.2,56741.77,11,710.79,No,Yes,No,Not Applicable,Reasonable Price,0
+47,F,72FNQEU,Town,Premium Membership,09-09-2016,No,xxxxxxxx,Without Offers,Smartphone,Mobile_Data,2:23:58,2,163.43,5843.93,5,754.32,No,Yes,Yes,No Information Available,Too many ads,0
+34,M,WQT3TB3,Town,No Membership,13-08-2017,No,xxxxxxxx,Credit/Debit Card Offers,Smartphone,Mobile_Data,12:56:03,16,296.05,9945,Error,638.91,No,Yes,No,Not Applicable,Too many ads,1
+60,M,JVZWW7F,City,Platinum Membership,08-06-2017,No,xxxxxxxx,Gift Vouchers/Coupons,?,Wi-Fi,21:29:07,8,95.89,27327.38,15,754.13,No,Yes,Yes,Unsolved,Poor Product Quality,0
+10,F,BQNNOW0,,No Membership,11-06-2016,Yes,CID28414,Without Offers,Smartphone,Wi-Fi,0:45:28,13,134.41,34007.44,12,420.2522345,No,Yes,Yes,Solved,Poor Product Quality,1
+44,M,K86BRHQ,Town,Premium Membership,24-07-2016,No,xxxxxxxx,Without Offers,Smartphone,Fiber_Optic,10:22:33,21,34.97,14545.9,8,360.5824643,Yes,No,Yes,Unsolved,Poor Website,0
+17,M,HQ77Y5F,Village,Silver Membership,07-11-2016,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Wi-Fi,4:19:51,3,349.92,25966.98,9,659.95,Yes,No,No,Not Applicable,Poor Customer Service,1
+38,F,TEEC4CC,,Basic Membership,02-10-2015,?,xxxxxxxx,Without Offers,Desktop,Fiber_Optic,13:24:41,6,176.66,29048.04,21,-288.2473331,Yes,No,Yes,No Information Available,Poor Product Quality,1
+33,M,H1HTE6N,,Platinum Membership,03-09-2017,Yes,CID54071,Credit/Debit Card Offers,Desktop,Mobile_Data,14:13:44,20,42.03,33959.9,8,831.1,No,Yes,Yes,Unsolved,Products always in Stock,0
+16,F,T4Z6TNW,City,Silver Membership,05-05-2017,Yes,xxxxxxxx,Without Offers,Smartphone,Mobile_Data,12:40:18,13,47.22,15403.3,19,672.15,No,Yes,No,Not Applicable,Poor Website,1
+50,M,UR8I03I,Village,Silver Membership,25-11-2016,No,xxxxxxxx,Without Offers,Desktop,Fiber_Optic,19:15:34,10,446.49,21585.94,Error,,Yes,Yes,No,Not Applicable,Poor Customer Service,0
+52,F,MW7AZ09,City,Basic Membership,27-11-2017,Yes,CID21810,Credit/Debit Card Offers,Smartphone,Wi-Fi,13:47:28,9,502.02,28024.35,8,1161.057661,No,Yes,Yes,Solved,Poor Product Quality,1
+36,M,GP5UD43,City,Gold Membership,26-04-2017,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Mobile_Data,16:54:20,5,261.9,41808.02,16,,Yes,No,Yes,Solved,Poor Customer Service,0
+38,F,APJDTRE,,No Membership,18-10-2016,Yes,CID19386,Without Offers,Smartphone,Wi-Fi,17:22:59,-999,105.74,25686.23,16,622.96,Yes,No,Yes,Unsolved,Poor Customer Service,1
+54,F,ZSTLZ2E,City,Premium Membership,20-03-2016,Yes,CID63224,Without Offers,?,Wi-Fi,11:26:28,23,59.08,36440.91,15,1638.27558,Yes,No,No,Not Applicable,Poor Customer Service,0
+18,F,3KJBJZ7,Town,No Membership,22-07-2016,Yes,CID31262,Without Offers,Smartphone,Mobile_Data,21:16:40,17,200.63,21330.47,22,661.3,No,Yes,No,Not Applicable,No reason specified,1
+27,M,4CY7E4N,City,Platinum Membership,27-04-2015,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Wi-Fi,14:04:47,10,206.96,44254.12,12,,Yes,Yes,No,Not Applicable,Products always in Stock,0
+38,F,34FU846,Village,Basic Membership,24-07-2015,?,CID63331,Gift Vouchers/Coupons,Desktop,Mobile_Data,7:03:32,17,162.46,3929.57,5,,Yes,No,Yes,Solved,No reason specified,1
+59,M,UBDOE5W,Town,Premium Membership,12-12-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Fiber_Optic,6:54:54,14,1431.646546,56989.08,7,727.58,Yes,No,Yes,Unsolved,User Friendly Website,0
+51,F,O939G11,City,Platinum Membership,01-08-2016,Yes,CID21667,Without Offers,?,Wi-Fi,11:41:59,8,32.25,8879.1,24,796.24,Yes,No,Yes,No Information Available,Too many ads,0
+14,F,AWONHJ4,,Gold Membership,25-02-2017,Yes,xxxxxxxx,Credit/Debit Card Offers,?,Wi-Fi,20:53:29,-999,104.42,6656.53,5,743.13,Yes,No,No,Not Applicable,Too many ads,0
+62,F,IKQ7RTU,,Premium Membership,30-10-2015,?,CID55170,Credit/Debit Card Offers,Smartphone,Wi-Fi,17:53:11,21,144.85,12962.42,26,761.04,No,Yes,Yes,Solved in Follow-up,Too many ads,0
+47,F,UQIC4GK,City,Premium Membership,05-05-2016,?,xxxxxxxx,Without Offers,Desktop,Wi-Fi,10:08:33,18,33.57,5110.81,29,,Yes,No,Yes,Solved,Poor Customer Service,0
+18,M,5RETX99,Town,Gold Membership,16-08-2015,No,xxxxxxxx,Without Offers,Desktop,Fiber_Optic,9:23:28,21,260.08,15097.46,11,773.63,Yes,No,No,Not Applicable,Poor Product Quality,0
+64,F,E3SL0KU,Village,Gold Membership,02-01-2015,?,CID22312,Gift Vouchers/Coupons,Smartphone,Wi-Fi,22:49:01,13,80.09,32437.84,9,,No,Yes,Yes,Solved in Follow-up,Poor Customer Service,1
+56,F,MQ4E3GZ,City,Premium Membership,01-07-2015,No,xxxxxxxx,Without Offers,Desktop,Fiber_Optic,19:39:43,13,-849.3020119,2042.49,21,,Yes,No,Yes,Solved,No reason specified,0
+52,M,8BIS3LY,,Silver Membership,02-08-2015,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Fiber_Optic,9:28:53,16,401.93,60639.1,11,797.27,No,Yes,Yes,Solved,Quality Customer Care,0
+49,M,MFEOCSL,City,No Membership,05-07-2017,No,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Mobile_Data,13:49:25,9,76.11,28870.14,28,683.65,Yes,No,Yes,No Information Available,Poor Product Quality,1
+15,M,J5J3ZH7,,No Membership,30-03-2017,Yes,CID2958,Without Offers,Desktop,Wi-Fi,23:17:12,15,81.06,6382.96,24,608.84,Yes,No,No,Not Applicable,Too many ads,1
+41,F,8LKPORX,Town,Platinum Membership,03-06-2015,No,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Mobile_Data,1:37:06,10,1110.189531,49615.92,24,786.64,Yes,No,Yes,Solved,Poor Customer Service,0
+25,F,7L3N4HW,Town,No Membership,21-12-2015,No,xxxxxxxx,Without Offers,Smartphone,Mobile_Data,21:10:13,8,305.27,28019.96,7,608.54,Yes,No,No,Not Applicable,Poor Product Quality,1
+36,F,PI814PZ,City,Gold Membership,25-06-2017,Yes,xxxxxxxx,Without Offers,Smartphone,Fiber_Optic,12:23:18,24,563.3,38221,10,1296.669481,No,Yes,Yes,Solved,Poor Customer Service,0
+16,F,F3MXJED,Village,No Membership,20-12-2017,No,xxxxxxxx,Credit/Debit Card Offers,Both,Fiber_Optic,2:38:31,7,237.14,5061.41,10,989.9731931,Yes,Yes,No,Not Applicable,Poor Website,1
+30,M,3T5RRXV,Town,Silver Membership,17-12-2016,Yes,CID35031,Gift Vouchers/Coupons,Smartphone,Wi-Fi,8:49:31,2,58.85,46895.72,16,792.09,No,Yes,Yes,Unsolved,Too many ads,0
+48,M,KVXUBQO,,Gold Membership,12-10-2017,Yes,CID36295,Credit/Debit Card Offers,Desktop,Fiber_Optic,13:47:40,14,31.26,48481.64,17,717.55,No,Yes,No,Not Applicable,No reason specified,1
+29,M,ML1VCLE,Town,Basic Membership,16-07-2017,Yes,CID42153,Gift Vouchers/Coupons,Desktop,Fiber_Optic,17:19:34,6,274.91,43598.7,5,,No,Yes,Yes,Unsolved,Poor Customer Service,1
+30,F,DPQD37D,,Gold Membership,19-12-2015,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Fiber_Optic,21:07:26,16,1299.679599,22290.86,28,638.96,No,Yes,Yes,Solved,Poor Product Quality,1
+49,M,DCICECJ,City,No Membership,18-01-2017,Yes,CID29192,Credit/Debit Card Offers,Smartphone,Fiber_Optic,11:23:56,13,150.91,17129.53,15,639.82,No,Yes,Yes,No Information Available,Poor Product Quality,1
+13,F,1B435GD,Town,Gold Membership,05-09-2015,?,CID31888,Without Offers,Desktop,Wi-Fi,17:22:08,9,271.76,26424.38,14,756.13,Yes,Yes,No,Not Applicable,Poor Product Quality,0
+56,M,FPG1LBU,Village,Platinum Membership,29-05-2015,?,CID3401,Without Offers,Both,Fiber_Optic,8:03:09,3,733.67,14436.07,6,297.403945,Yes,Yes,Yes,Solved,Quality Customer Care,0
+36,M,LGBR8DV,Town,Platinum Membership,19-03-2016,Yes,CID3930,Gift Vouchers/Coupons,?,Wi-Fi,17:32:30,-999,1221.822286,86842.83,13,710.92,Yes,Yes,No,Not Applicable,Reasonable Price,0
+34,M,OWDWYEA,,Premium Membership,16-11-2016,?,CID62743,Credit/Debit Card Offers,Both,Wi-Fi,1:14:08,2,949.86,33079.95,25,419.1161383,Yes,Yes,No,Not Applicable,Poor Product Quality,0
+23,F,LL9WRG9,City,No Membership,04-01-2015,No,xxxxxxxx,Without Offers,Smartphone,Fiber_Optic,20:38:43,4,215.75,33862.45,Error,206.027629,No,Yes,Yes,Solved in Follow-up,Too many ads,1
+36,F,7QQDW9I,Town,No Membership,12-04-2016,No,xxxxxxxx,Credit/Debit Card Offers,?,Mobile_Data,14:00:00,15,479.45,25392.94,11,587.23,Yes,No,No,Not Applicable,No reason specified,1
+20,M,FKD52UE,City,Platinum Membership,11-05-2016,?,CID22489,Gift Vouchers/Coupons,Desktop,Mobile_Data,1:40:30,2,352.61,1816.1,5,733.6,No,Yes,No,Not Applicable,Poor Website,0
+35,F,9BJLEMK,City,Basic Membership,20-07-2015,No,xxxxxxxx,Gift Vouchers/Coupons,?,Mobile_Data,1:36:27,-999,86.27,37451.91,23,676.89,No,Yes,Yes,Solved,Poor Customer Service,1
+29,M,62JGFV8,City,Basic Membership,19-07-2017,No,xxxxxxxx,Without Offers,Desktop,Wi-Fi,20:41:14,19,43.5,14431.86,27,686.86,Yes,No,No,Not Applicable,Poor Customer Service,1
+38,F,Z3OEL8F,City,No Membership,10-06-2017,Yes,CID33054,Gift Vouchers/Coupons,?,Mobile_Data,17:20:10,11,552.61,20308.23,28,615.9,Yes,No,Yes,Unsolved,Poor Product Quality,1
+46,M,OHGN6CD,Town,Gold Membership,01-07-2015,No,xxxxxxxx,Without Offers,Smartphone,Mobile_Data,5:46:03,20,393.41,15462.29,8,747.11,No,Yes,Yes,No Information Available,No reason specified,0
+60,F,P169L14,City,Silver Membership,28-11-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Fiber_Optic,16:49:48,5,95.02,11757.89,6,750.89,Yes,No,No,Not Applicable,Too many ads,0
+61,F,VABORTJ,City,Premium Membership,27-07-2016,Yes,CID16277,Gift Vouchers/Coupons,Desktop,Wi-Fi,2:20:24,25,50.63,97688.49,17,292.5686807,Yes,No,Yes,Solved,Reasonable Price,0
+56,F,YKVADVN,Town,Gold Membership,10-02-2016,Yes,CID63709,Gift Vouchers/Coupons,Desktop,Wi-Fi,3:07:00,12,34.08,34687.38,15,717.96,No,Yes,No,Not Applicable,Reasonable Price,0
+41,M,ZMSJPAY,City,Basic Membership,24-10-2016,No,xxxxxxxx,Without Offers,Smartphone,Mobile_Data,0:17:26,16,34.82,33188.16,27,367.6930211,No,Yes,Yes,Solved in Follow-up,Poor Customer Service,1
+59,M,QJBHPD3,Town,Premium Membership,15-11-2015,No,xxxxxxxx,Credit/Debit Card Offers,Both,Fiber_Optic,8:14:38,16,1336.2697,36326.75,Error,788.99,No,Yes,No,Not Applicable,Poor Website,0
+29,F,9KFLYZB,Town,Premium Membership,25-04-2017,No,xxxxxxxx,Credit/Debit Card Offers,Smartphone,Fiber_Optic,14:25:24,6,201.06,8436.67,6,1071.243322,Yes,No,Yes,Solved,Products always in Stock,0
+28,M,PQZTYSQ,City,Silver Membership,19-10-2016,Yes,CID62016,Gift Vouchers/Coupons,Both,Fiber_Optic,18:27:24,16,348.67,38427.15,29,700.81,Yes,No,Yes,Unsolved,Poor Website,0
+56,F,Q0LQ2P9,Town,Basic Membership,22-08-2015,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Wi-Fi,21:32:54,14,42.78,43391.4,28,436.0883338,Yes,No,Yes,Solved in Follow-up,Poor Customer Service,1
+43,F,WU58Y9L,Town,Gold Membership,01-05-2016,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Mobile_Data,18:31:07,21,33.37,36894.82,18,701.81,No,Yes,No,Not Applicable,Poor Customer Service,0
+28,F,O5A04SI,,Silver Membership,19-05-2017,No,xxxxxxxx,Gift Vouchers/Coupons,Both,Wi-Fi,13:52:07,20,222.09,19368.12,45.3190613,629.83,Yes,No,Yes,No Information Available,Poor Customer Service,1
+16,F,JDFE61J,,Silver Membership,22-05-2016,No,xxxxxxxx,Gift Vouchers/Coupons,?,Fiber_Optic,16:56:14,9,88.82,5497.89,12,,Yes,No,Yes,Solved in Follow-up,Poor Product Quality,0
+60,F,WELBZTU,Town,No Membership,21-05-2015,Yes,CID49599,Credit/Debit Card Offers,Desktop,Mobile_Data,19:36:19,16,101.56,5132.55,16,621.96,No,Yes,Yes,Unsolved,Poor Product Quality,1
+35,F,L1YFUWS,City,No Membership,28-05-2015,No,xxxxxxxx,Without Offers,Smartphone,Fiber_Optic,16:08:51,9,37.59,28432.23,29,631.14,No,Yes,Yes,Unsolved,Poor Product Quality,1
+24,M,TH83WHQ,Village,Premium Membership,28-11-2015,?,CID46085,Credit/Debit Card Offers,Desktop,Fiber_Optic,22:12:24,2,138.61,68051.66,Error,846.33,No,Yes,Yes,Unsolved,User Friendly Website,0
+17,F,KRWB0LN,,Basic Membership,18-01-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Wi-Fi,5:03:15,9,47.81,12144.94,Error,690.32,No,Yes,Yes,Unsolved,No reason specified,1
+21,M,4KW3H5H,City,Gold Membership,02-10-2015,Yes,CID13098,Credit/Debit Card Offers,?,Mobile_Data,21:38:46,17,33.88,43649.07,11,777.37,No,Yes,Yes,No Information Available,Poor Website,0
+16,F,FPEMXH6,Town,Basic Membership,12-06-2015,Yes,CID52199,Gift Vouchers/Coupons,Desktop,Wi-Fi,6:10:19,7,117.73,31562.08,7,,No,Yes,Yes,Solved in Follow-up,No reason specified,1
+64,M,ER5D5N7,Village,Platinum Membership,16-05-2017,Yes,CID18008,Gift Vouchers/Coupons,?,Mobile_Data,20:05:18,3,327.42,1063.13,8,755.68,Yes,No,Yes,No Information Available,No reason specified,0
+39,M,18OSPOO,Town,Basic Membership,16-11-2016,No,xxxxxxxx,Without Offers,?,Mobile_Data,3:30:40,8,417.99,37839.02,16,654.7996673,No,Yes,No,Not Applicable,No reason specified,1
+54,F,JZNSL0W,City,Basic Membership,13-12-2017,No,xxxxxxxx,Credit/Debit Card Offers,Smartphone,Fiber_Optic,6:46:04,4,80.78,19793.69,18,676.01,No,Yes,No,Not Applicable,Too many ads,1
+63,F,SEXN2TQ,City,Silver Membership,15-12-2017,?,CID54154,Gift Vouchers/Coupons,Desktop,Mobile_Data,1:00:49,9,96.65,24717.58,35.52947394,746.23,Yes,No,Yes,Solved in Follow-up,Quality Customer Care,0
+17,M,AQ92MAN,City,Basic Membership,16-02-2016,?,CID34249,Gift Vouchers/Coupons,?,Mobile_Data,14:39:34,13,46.04,19090.42,12,581.33,Yes,No,Yes,Solved in Follow-up,Poor Product Quality,1
+36,F,ZOV5LAE,Town,Basic Membership,26-03-2017,Yes,CID63769,Gift Vouchers/Coupons,Smartphone,Wi-Fi,9:19:58,16,119.69,48054.16,20,606.57,No,Yes,Yes,Solved in Follow-up,No reason specified,1
+55,M,T0A8EI8,Town,Silver Membership,27-07-2015,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Mobile_Data,15:27:00,15,156.18,14801.69,12,645.38,No,Yes,Yes,Solved in Follow-up,Poor Customer Service,1
+24,F,OLCRPN8,Village,Gold Membership,17-08-2017,Yes,xxxxxxxx,Without Offers,Desktop,Wi-Fi,2:43:09,19,58.11,7232.66,8,673.32,No,Yes,No,Not Applicable,Poor Product Quality,1
+55,M,7762YJ3,Town,Gold Membership,14-06-2017,?,CID2469,Credit/Debit Card Offers,Desktop,Fiber_Optic,6:30:32,19,33.19,44650.25,17,,Yes,No,No,Not Applicable,Poor Product Quality,0
+63,M,E0JFE7I,Town,Platinum Membership,04-03-2016,?,CID60688,Gift Vouchers/Coupons,?,Fiber_Optic,22:06:03,13,601.21,44824.66,5,771.61,Yes,Yes,No,Not Applicable,Reasonable Price,0
+28,M,8FQW1K0,City,Basic Membership,12-01-2016,Yes,CID63470,Credit/Debit Card Offers,Both,Fiber_Optic,16:40:51,5,-84.51128758,14084.16,13,687.16,Yes,Yes,No,Not Applicable,Poor Product Quality,0
+35,M,30RPCGO,Town,No Membership,22-06-2015,Yes,CID24013,Credit/Debit Card Offers,Smartphone,Wi-Fi,20:48:59,10,495.46,26812.57,17,538.4,Yes,Yes,Yes,Solved,Poor Website,1
+59,M,MTA1QQB,Town,No Membership,21-04-2016,?,CID52009,Without Offers,Both,Fiber_Optic,4:26:06,15,510.73,20038.13,7,622.29,Yes,Yes,No,Not Applicable,Poor Customer Service,1
+23,F,94OGPW9,Town,Silver Membership,16-01-2015,No,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Wi-Fi,23:41:04,17,378.32,6289.63,29,717,No,Yes,No,Not Applicable,Too many ads,1
+32,M,6ZZ44XG,,Silver Membership,19-07-2017,Yes,CID61439,Gift Vouchers/Coupons,Desktop,Fiber_Optic,11:23:00,12,191.47,12992.9,7,,Yes,No,Yes,Solved in Follow-up,Poor Customer Service,1
+36,M,JEKXSPA,City,No Membership,10-08-2015,?,CID60798,Credit/Debit Card Offers,Both,Fiber_Optic,17:44:40,4,247.62,17192.01,12,614.6,Yes,No,Yes,Solved in Follow-up,Poor Product Quality,1
+19,M,AIZ4E57,Town,Premium Membership,15-01-2015,Yes,xxxxxxxx,Without Offers,?,Mobile_Data,20:04:50,-999,137.76,37000.31,19,751.89,No,Yes,Yes,Solved in Follow-up,Poor Customer Service,0
+47,M,EILBQGP,City,Platinum Membership,16-08-2015,Yes,xxxxxxxx,Without Offers,?,Mobile_Data,0:13:02,15,826.23,7263.2,15,741.78,Yes,Yes,Yes,Solved,Poor Product Quality,0
+42,M,IOWTJ25,City,No Membership,06-05-2016,?,CID62464,,?,Wi-Fi,0:41:45,14,1086.01,37893.72,17,602.01,Yes,Yes,No,Not Applicable,Too many ads,1
+30,M,19ZN4CH,City,Premium Membership,15-02-2015,Yes,CID17765,Credit/Debit Card Offers,Smartphone,Mobile_Data,7:59:50,17,512.86,84959.24,19,759.74,No,Yes,No,Not Applicable,Reasonable Price,0
+29,M,ZE43TWJ,City,No Membership,14-09-2017,Yes,xxxxxxxx,Gift Vouchers/Coupons,Both,Mobile_Data,9:59:36,12,523.17,48510.75,12,1203.6933,Yes,No,No,Not Applicable,Poor Product Quality,1
+25,M,D3XMM6A,,Basic Membership,12-03-2015,Yes,CID20169,Without Offers,?,Mobile_Data,2:53:13,-999,32.94,2257.48,11,937.5606171,No,Yes,No,Not Applicable,Too many ads,1
+54,F,0EJB1JA,Village,No Membership,13-10-2017,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Wi-Fi,4:59:40,23,388.92,46687.09,20,951.6893163,No,Yes,Yes,No Information Available,Poor Product Quality,1
+38,F,8YRNCZZ,Village,Basic Membership,01-08-2015,?,CID21127,Credit/Debit Card Offers,Smartphone,Fiber_Optic,16:14:30,18,64.35,32459.02,18,626.88,Yes,No,No,Not Applicable,Poor Website,1
+19,F,Q8ZXS35,Town,Premium Membership,20-05-2016,?,CID4016,Gift Vouchers/Coupons,Both,Mobile_Data,11:38:23,8,437.82,2361.57,6,720.59,No,Yes,No,Not Applicable,Poor Product Quality,0
+28,F,8EF8ZJH,Town,Silver Membership,13-12-2017,?,xxxxxxxx,Credit/Debit Card Offers,Both,Mobile_Data,20:34:41,15,425.87,20552.83,6,734.31,Yes,Yes,No,Not Applicable,Poor Product Quality,0
+57,F,47G4O8O,City,Platinum Membership,24-05-2015,No,xxxxxxxx,Without Offers,Desktop,Wi-Fi,3:05:21,12,400.2,32446,10,839,Yes,No,No,Not Applicable,User Friendly Website,0
+56,F,YLKCRJ8,Village,Platinum Membership,19-08-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Mobile_Data,12:50:05,20,34.14,26613.52,25,708.39,No,Yes,Yes,Unsolved,Too many ads,0
+33,M,AGO2MEE,,No Membership,10-08-2015,Yes,CID39594,Without Offers,Desktop,Wi-Fi,7:18:17,10,30.91,32503.71,11,552.16,No,Yes,No,Not Applicable,Poor Website,1
+36,M,KM8J7QI,City,Basic Membership,10-10-2015,No,xxxxxxxx,Without Offers,Desktop,Wi-Fi,7:44:09,15,186.4,26284.13,17,656.21,Yes,No,No,Not Applicable,Poor Website,1
+53,M,O7FKPZS,Town,Premium Membership,21-09-2017,Yes,CID40825,Credit/Debit Card Offers,Desktop,Mobile_Data,3:15:33,-999,83.02,32966.01,22,,Yes,No,Yes,Unsolved,Too many ads,0
+13,M,FPO839O,Town,Basic Membership,30-12-2017,?,CID50173,Credit/Debit Card Offers,Smartphone,Mobile_Data,16:36:03,5,1721.26,28781.74,13,512.17,Yes,Yes,Yes,Solved,Poor Customer Service,1
+27,M,0PLPEW8,Village,Silver Membership,08-03-2015,?,CID2453,Credit/Debit Card Offers,Both,Mobile_Data,18:12:03,10,747.05,29414.81,16,683.08,No,Yes,Yes,Solved,Poor Product Quality,1
+11,F,Y3YDQIH,Town,Basic Membership,17-11-2015,Yes,CID60923,Gift Vouchers/Coupons,?,Fiber_Optic,7:35:45,11,1228.143729,2173.69,17,969.1398301,No,Yes,No,Not Applicable,Poor Customer Service,1
+26,F,NTVRTSW,City,No Membership,10-05-2017,Yes,CID13361,Without Offers,Desktop,Mobile_Data,1:41:05,12,652.19,26519.82,16,1466.43648,Yes,Yes,No,Not Applicable,No reason specified,1
+16,M,P0H0LPX,City,Basic Membership,26-09-2016,Yes,CID56161,Without Offers,Smartphone,Mobile_Data,6:28:44,11,130.05,17513.69,29,535.24,No,Yes,Yes,Unsolved,Too many ads,1
+51,M,WFN7EE1,,Premium Membership,28-10-2017,Yes,xxxxxxxx,Credit/Debit Card Offers,Desktop,Mobile_Data,8:58:03,7,185.79,53225.55,5,,No,Yes,No,Not Applicable,Products always in Stock,0
+23,M,U3WFVQZ,Town,Silver Membership,29-07-2017,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Fiber_Optic,1:43:28,13,32.83,49711.44,26,485.0209578,No,Yes,No,Not Applicable,Too many ads,0
+25,F,G37PP74,City,Platinum Membership,02-03-2015,Yes,CID10241,Credit/Debit Card Offers,Desktop,Fiber_Optic,21:50:00,12,529.07,6325.37,23,744.6,Yes,No,Yes,Unsolved,Poor Product Quality,0
+16,M,LSOBASG,Village,Basic Membership,26-06-2015,No,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Fiber_Optic,21:36:20,7,47.18,2242.41,14,667.44,No,Yes,No,Not Applicable,Poor Customer Service,1
+60,F,V70K7K4,,Basic Membership,05-11-2016,Yes,CID30788,Without Offers,Both,Wi-Fi,6:30:06,4,507.58,34469.26,13,651.69,Yes,Yes,No,Not Applicable,No reason specified,1
+61,M,4DGROVU,Town,Basic Membership,12-04-2016,?,CID5590,Without Offers,?,Fiber_Optic,10:01:13,12,322.92,18353.67,19,534.9,Yes,No,No,Not Applicable,Poor Customer Service,1
+44,M,0EG30XV,City,Gold Membership,12-03-2017,Yes,CID62572,Gift Vouchers/Coupons,?,Wi-Fi,7:19:50,13,96.76,31096.42,16,794.75,No,Yes,No,Not Applicable,Products always in Stock,0
+20,F,Z3XHO8Q,City,Gold Membership,10-11-2016,No,xxxxxxxx,Credit/Debit Card Offers,?,Mobile_Data,1:03:32,13,171.79,16554.99,12,777.01,No,Yes,No,Not Applicable,Poor Website,0
+27,M,QB2EVN5,Town,Silver Membership,24-10-2015,?,CID34811,Without Offers,Both,Fiber_Optic,2:05:09,11,249.36,28951.39,18,768.86,Yes,No,No,Not Applicable,Too many ads,0
+22,F,8Z0GW27,City,Gold Membership,02-08-2016,Yes,CID3401,Gift Vouchers/Coupons,Smartphone,Fiber_Optic,12:22:00,3,2732.7,79718.85,5,824.45,Yes,Yes,Yes,Solved in Follow-up,User Friendly Website,0
+19,F,HF9AKSB,City,Silver Membership,27-01-2017,Yes,CID33810,Gift Vouchers/Coupons,Desktop,Mobile_Data,2:57:26,14,213.38,14581.71,18,713.31,Yes,Yes,No,Not Applicable,Poor Customer Service,0
+49,M,TG8E59H,Village,Premium Membership,03-08-2017,No,xxxxxxxx,Gift Vouchers/Coupons,?,Wi-Fi,5:35:50,-999,68.77,2187.4,Error,702.95,Yes,No,Yes,Solved,Poor Product Quality,0
+40,M,F75PAFR,,No Membership,10-09-2015,Yes,CID57021,Gift Vouchers/Coupons,Smartphone,Fiber_Optic,17:46:25,13,77.19,24873.42,20,696.24,Yes,No,No,Not Applicable,Poor Website,1
+20,M,TVWE9FO,Village,No Membership,24-10-2015,No,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Mobile_Data,13:57:20,3,-503.7872902,30354.78,13,1030.541941,Yes,Yes,Yes,Solved in Follow-up,Poor Customer Service,1
+52,M,3OQSHQI,Town,Platinum Membership,07-12-2016,Yes,CID23246,Gift Vouchers/Coupons,Smartphone,Wi-Fi,10:06:41,21,30.48,1911.99,22,745.75,Yes,No,Yes,No Information Available,Too many ads,0
+39,F,KRP5KZX,Town,Basic Membership,22-04-2017,No,xxxxxxxx,Credit/Debit Card Offers,Smartphone,Mobile_Data,1:51:14,21,186.03,2353.19,22,675.41,Yes,No,No,Not Applicable,No reason specified,1
+20,F,VEIFRGC,Village,Platinum Membership,22-07-2015,No,xxxxxxxx,Gift Vouchers/Coupons,Both,Mobile_Data,23:25:49,20,257.51,26394.03,11,792.01,No,Yes,No,Not Applicable,Reasonable Price,0
+25,M,VK6Q1QU,City,No Membership,12-02-2016,?,CID57748,Without Offers,?,Mobile_Data,7:56:41,21,40.73,3069.27,15,658.13,No,Yes,Yes,Solved,Too many ads,1
+16,M,I0TP1M2,City,Premium Membership,12-10-2017,No,xxxxxxxx,Credit/Debit Card Offers,Smartphone,Wi-Fi,4:11:00,7,280.15,61874.77,4,774.36,No,Yes,Yes,Solved in Follow-up,Quality Customer Care,0
+17,F,JV1I8IF,Town,No Membership,14-01-2017,Yes,CID40236,Credit/Debit Card Offers,Smartphone,Wi-Fi,7:30:24,20,69.38,1062.77,24,699.24,Yes,No,Yes,Solved,Too many ads,1
+64,F,HW5IWI7,City,No Membership,09-07-2016,Yes,CID42557,Without Offers,Desktop,Mobile_Data,18:05:54,-999,393.4,46194.84,46.43606503,330.5707099,Yes,No,Yes,Solved in Follow-up,Too many ads,1
+37,F,QW8S16R,Town,Basic Membership,29-10-2016,Yes,CID10731,Without Offers,Smartphone,Wi-Fi,18:13:08,13,66.03,46020.2,29,529.86,No,Yes,No,Not Applicable,Poor Website,1
+49,F,ITDY1DO,Town,Basic Membership,18-09-2016,No,xxxxxxxx,,Smartphone,Mobile_Data,17:00:03,24,31.93,24009.29,6,618.05,Yes,No,Yes,No Information Available,Poor Product Quality,1
+36,M,2Q9KRR1,City,Basic Membership,14-03-2016,Yes,CID17468,Gift Vouchers/Coupons,Desktop,Fiber_Optic,1:26:42,23,125.03,10994.22,20,1147.987633,Yes,No,No,Not Applicable,No reason specified,1
+59,F,V3UZSK5,Village,Gold Membership,25-09-2015,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Wi-Fi,0:54:37,21,228.5,9071.32,8,703.79,Yes,No,No,Not Applicable,Poor Website,0
+21,M,9VLNSL7,City,Premium Membership,15-08-2017,No,xxxxxxxx,Without Offers,Desktop,Fiber_Optic,8:48:00,21,36.51,23137.87,11,,No,Yes,Yes,Solved in Follow-up,Poor Website,0
+17,M,LFWH0IP,City,Silver Membership,13-01-2015,Yes,CID25765,Without Offers,Both,Wi-Fi,6:46:11,4,406.37,14837.87,19,742.51,No,Yes,No,Not Applicable,Poor Website,0
+15,M,9V00PP5,Town,Silver Membership,19-01-2017,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Mobile_Data,2:55:35,7,36.13,21281.1,Error,719.2,No,Yes,Yes,Unsolved,No reason specified,0
+48,M,WD8PYJ6,Village,Gold Membership,23-01-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Mobile_Data,4:03:32,14,160.61,90796.23,3,823.46,No,Yes,Yes,Unsolved,Reasonable Price,0
+47,M,948B4WZ,Town,Silver Membership,12-06-2016,Yes,CID13189,Credit/Debit Card Offers,Desktop,Fiber_Optic,4:17:07,14,247.55,40684.25,20,701.81,Yes,Yes,No,Not Applicable,Too many ads,0
+17,M,M6KFKIN,,Premium Membership,05-10-2017,No,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Wi-Fi,13:52:45,12,164.74,41722.86,22,728,Yes,No,Yes,Solved in Follow-up,No reason specified,0
+21,M,TSOYO3H,,Gold Membership,14-09-2016,Yes,CID16421,Without Offers,Smartphone,Mobile_Data,7:03:43,21,49.24,49946.91,18,694.15,Yes,No,Yes,Unsolved,Poor Product Quality,1
+51,M,T18BBSW,City,Platinum Membership,23-08-2017,No,xxxxxxxx,Without Offers,Desktop,Wi-Fi,18:46:54,18,55,8502.47,22,786.6,No,Yes,No,Not Applicable,Poor Product Quality,0
+59,F,K6P6NYI,Town,Gold Membership,10-01-2017,No,xxxxxxxx,Without Offers,?,Mobile_Data,6:56:08,15,88.48,33724.01,22,941.4586065,Yes,No,No,Not Applicable,Too many ads,0
+54,M,QARH8JT,City,Gold Membership,09-04-2017,No,xxxxxxxx,Without Offers,?,Wi-Fi,19:47:55,6,94.98,29217.32,13,702.21,No,Yes,Yes,No Information Available,Poor Customer Service,0
+24,M,VXZV1O3,Village,Platinum Membership,17-08-2016,Yes,CID7943,,?,Wi-Fi,18:51:20,1,215.35,65188.06,8,778.26,No,Yes,No,Not Applicable,Reasonable Price,0
+27,M,IMYUGS9,City,Platinum Membership,17-06-2017,No,xxxxxxxx,Credit/Debit Card Offers,Smartphone,Mobile_Data,18:27:29,10,308.34,96015.22,4,815.96,Yes,No,No,Not Applicable,Reasonable Price,0
+40,M,OA710UG,Village,Premium Membership,16-02-2015,Yes,CID35381,Credit/Debit Card Offers,Desktop,Wi-Fi,5:52:45,-999,328.08,30949.96,20,767.25,Yes,No,Yes,Solved,No reason specified,0
+17,M,UG0O8TB,Town,Basic Membership,22-07-2017,Yes,CID27956,Gift Vouchers/Coupons,Both,Wi-Fi,10:02:07,8,1512.6,15911.62,16,586.72,Yes,No,No,Not Applicable,Poor Product Quality,1
+27,M,OHYHBXF,Village,Premium Membership,16-01-2016,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Mobile_Data,18:17:44,17,234.72,97438.18,12,,No,Yes,No,Not Applicable,Products always in Stock,0
+61,M,KEOX4AA,Village,Basic Membership,23-08-2016,Yes,CID26676,Credit/Debit Card Offers,Smartphone,Mobile_Data,13:45:30,12,167.05,29100.92,29,517.38,No,Yes,Yes,Solved,No reason specified,1
+35,F,BYP7XTO,Town,Basic Membership,23-12-2015,No,xxxxxxxx,Without Offers,?,Mobile_Data,21:14:04,21,74.86,7282.58,14,617.47,No,Yes,No,Not Applicable,Poor Website,1
+27,F,9JY2TIQ,,Basic Membership,05-06-2015,?,CID1448,Credit/Debit Card Offers,Desktop,Mobile_Data,1:57:50,-999,84.9,12254.48,12,660.35,Yes,No,No,Not Applicable,Poor Product Quality,1
+64,F,UIKDBY0,City,Basic Membership,09-12-2016,Yes,CID43243,Without Offers,Desktop,Wi-Fi,9:49:49,15,31.1,44214.34,27,672.58,Yes,No,Yes,No Information Available,Poor Website,1
+26,M,GYPPYY9,Town,Gold Membership,31-07-2015,?,CID53052,Without Offers,Smartphone,Fiber_Optic,11:00:02,-999,783.85,28972.22,7,685.92,Yes,Yes,No,Not Applicable,Poor Product Quality,1
+40,M,A8XL6QD,Town,Silver Membership,07-05-2016,No,xxxxxxxx,Credit/Debit Card Offers,Both,Mobile_Data,5:43:59,23,413.94,42743.27,20,655.95,Yes,No,No,Not Applicable,Poor Website,1
+57,F,VTYOI9P,City,Gold Membership,16-04-2015,Yes,CID23550,Credit/Debit Card Offers,Desktop,Mobile_Data,21:21:34,20,640.52,6027.42,13,1066.059624,No,Yes,No,Not Applicable,Poor Website,0
+28,M,3AGMHO8,City,Gold Membership,03-05-2015,No,xxxxxxxx,Credit/Debit Card Offers,Both,Fiber_Optic,11:02:13,12,202.8,20086.44,7,798.92,Yes,Yes,Yes,No Information Available,No reason specified,0
+60,M,NZAGASL,Town,Basic Membership,31-07-2015,No,xxxxxxxx,Without Offers,Smartphone,Wi-Fi,4:13:56,12,337.48,27396.98,26,614.08,No,Yes,Yes,Solved in Follow-up,No reason specified,1
+51,F,SJMFXRV,Town,No Membership,03-11-2017,No,xxxxxxxx,Without Offers,Desktop,Mobile_Data,19:55:13,10,299.48,38854.23,28,668.5,No,Yes,Yes,Solved in Follow-up,Too many ads,1
+18,M,3WK2CVF,,Basic Membership,05-02-2017,Yes,CID24108,Without Offers,Smartphone,Wi-Fi,17:51:22,8,31.26,15951.24,21,677.42,Yes,No,No,Not Applicable,Poor Customer Service,1
+39,M,OBFCL74,Village,Premium Membership,15-06-2015,Yes,CID27244,Gift Vouchers/Coupons,Smartphone,Mobile_Data,2:42:27,18,110.72,4032.05,10,720.15,No,Yes,No,Not Applicable,Poor Product Quality,0
+31,M,B8PG3XI,Town,Gold Membership,09-10-2016,?,CID15659,Gift Vouchers/Coupons,Smartphone,Wi-Fi,9:38:02,-999,242.79,1266.63,4,788.29,Yes,No,Yes,No Information Available,Quality Customer Care,0
+23,M,HI5U3QB,City,No Membership,29-10-2015,No,xxxxxxxx,Credit/Debit Card Offers,Desktop,Wi-Fi,1:07:51,17,371.65,44996.93,27,507.98,No,Yes,No,Not Applicable,Poor Customer Service,1
+60,F,THNRY1U,City,Silver Membership,19-12-2016,No,xxxxxxxx,Gift Vouchers/Coupons,?,Mobile_Data,19:48:33,5,113.93,14527.98,Error,754.61,Yes,No,No,Not Applicable,Poor Product Quality,0
+49,M,KEY3M98,City,Gold Membership,19-08-2015,No,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Fiber_Optic,2:56:26,15,153.01,59242.98,18,790.36,Yes,No,No,Not Applicable,User Friendly Website,0
+64,F,3HBBVHE,Village,Basic Membership,08-06-2016,No,xxxxxxxx,Without Offers,Desktop,Fiber_Optic,16:03:55,22,223.8,35421.5,9,606.53,Yes,Yes,No,Not Applicable,Too many ads,1
+15,F,SBXFP63,City,No Membership,17-07-2015,Yes,CID3210,Credit/Debit Card Offers,Both,Fiber_Optic,4:17:22,-999,216.38,14244.25,24,621.01,No,Yes,No,Not Applicable,Poor Product Quality,1
+51,F,X6GAJZG,Town,Silver Membership,12-11-2016,Yes,CID63547,Gift Vouchers/Coupons,Smartphone,Wi-Fi,19:18:53,15,92.58,47671.91,7,795.49,Yes,No,Yes,Solved,Reasonable Price,0
+38,M,UZSSWL4,Town,Gold Membership,04-06-2017,?,CID22470,Gift Vouchers/Coupons,Desktop,Wi-Fi,12:01:22,11,62.54,50065.89,13,796.93,Yes,No,Yes,No Information Available,User Friendly Website,0
+25,F,MRBJE0Y,City,Platinum Membership,21-10-2017,Yes,CID32474,Without Offers,Desktop,Fiber_Optic,10:41:31,7,170.95,41491.97,11,717.98,Yes,No,No,Not Applicable,Poor Customer Service,0
+17,F,J8YLC82,Village,Silver Membership,22-09-2017,Yes,CID10950,Gift Vouchers/Coupons,Desktop,Fiber_Optic,17:56:05,3,64.75,7475.03,1,753.16,No,Yes,No,Not Applicable,User Friendly Website,0
+43,M,60WJYNN,,Premium Membership,04-04-2016,No,xxxxxxxx,Gift Vouchers/Coupons,Desktop,Mobile_Data,14:57:22,23,359.7,19316.29,8,735.83,Yes,No,Yes,Unsolved,Poor Customer Service,0
+47,M,95M8E9E,Town,Gold Membership,18-06-2017,Yes,xxxxxxxx,Gift Vouchers/Coupons,Smartphone,Mobile_Data,8:24:52,3,152.42,43006.26,10,753.07,No,Yes,Yes,Solved in Follow-up,Poor Customer Service,0
